@@ -141,42 +141,27 @@
     </a>
 
     <!-- ========================================================================= -->
-    <!-- 1. TOP UTILITY BAR (Preserved Green Theme as requested) -->
+    <!-- 1. TOP UTILITY BAR (Address, Number, WhatsApp Only as requested) -->
     <!-- ========================================================================= -->
-    <div class="bg-forest-900 text-white text-xs py-2.5 border-b border-[#233a0b] hidden lg:block">
+    <div class="bg-slate-950 text-white text-xs py-2.5 border-b border-slate-800 hidden lg:block">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
             
-            <!-- Left Info -->
-            <div class="flex items-center space-x-6">
-                <div class="flex items-center gap-2 text-lime-200">
-                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-500"></i>
-                    <span>905 Avenue Munck, Laval & Greater Montreal, QC</span>
-                </div>
-                <div class="flex items-center gap-2 text-lime-300">
-                    <i data-lucide="shield-check" class="w-3.5 h-3.5 text-gold-500"></i>
-                    <span>Recyc-Québec Aligned • 100% Cold Mechanical Recovery</span>
-                </div>
+            <!-- Address -->
+            <div class="flex items-center gap-2 text-slate-300">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-500"></i>
+                <span>905 Avenue Munck, Laval & Greater Montreal, QC</span>
             </div>
 
-            <!-- Right Info & Bilingual -->
+            <!-- Number & WhatsApp Only -->
             <div class="flex items-center space-x-6">
-                <div class="flex items-center gap-2 text-lime-300">
-                    <i data-lucide="clock" class="w-3.5 h-3.5 text-gold-500"></i>
-                    <span>Receiving Docks: Mon–Fri 07:00 – 17:00 EST</span>
-                </div>
-                <div class="border-l border-[#2e4d0f] pl-4 flex items-center gap-4">
-                    <a href="tel:14506634200" class="font-bold text-white hover:text-gold-500 transition-colors flex items-center gap-1.5">
-                        <i data-lucide="phone-call" class="w-3.5 h-3.5 text-gold-500"></i>
-                        <span>+1 (450) 663-4200</span>
-                    </a>
-                    <a href="https://wa.me/14506634200" target="_blank" class="text-lime-300 hover:text-white transition-colors flex items-center gap-1">
-                        <i data-lucide="message-circle" class="w-3.5 h-3.5 text-lime-400"></i>
-                        <span>WhatsApp</span>
-                    </a>
-                    <div class="text-[11px] font-mono font-bold uppercase tracking-wider text-lime-400 bg-forest-950 px-2 py-0.5 rounded border border-[#3b6313]">
-                        EN | FR
-                    </div>
-                </div>
+                <a href="tel:14506634200" class="font-bold text-white hover:text-gold-400 transition-colors flex items-center gap-1.5">
+                    <i data-lucide="phone-call" class="w-3.5 h-3.5 text-gold-500"></i>
+                    <span>+1 (450) 663-4200</span>
+                </a>
+                <a href="https://wa.me/14506634200" target="_blank" class="text-slate-300 hover:text-gold-400 transition-colors flex items-center gap-1.5">
+                    <i data-lucide="message-circle" class="w-3.5 h-3.5 text-gold-500"></i>
+                    <span>WhatsApp</span>
+                </a>
             </div>
 
         </div>
@@ -185,29 +170,29 @@
     <!-- ========================================================================= -->
     <!-- 2. MAIN HEADER & STICKY NAVBAR -->
     <!-- ========================================================================= -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-300">
+    <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 shadow-lg transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             
-            <!-- Brand Logo from logot-yellow.svg -->
+            <!-- Brand Logo from logo yellow.svg -->
             <a href="#home" class="flex items-center gap-3">
-                <img src="logot-yellow.svg" alt="Montreal Polymers Inc." class="h-10 w-auto">
+                <img src="logo yellow.svg" alt="Montreal Polymers Inc." class="h-10 w-auto">
             </a>
 
             <!-- Desktop Nav Links -->
-            <nav class="hidden lg:flex items-center space-x-8 text-sm font-bold text-slate-800 tracking-wide">
-                <a href="#home" class="text-slate-900 border-b-2 border-gold-500 pb-0.5">Home</a>
-                <a href="#services" class="text-slate-600 hover:text-gold-600 transition-colors">Services</a>
-                <a href="#pvc" class="text-slate-600 hover:text-gold-600 transition-colors flex items-center gap-1">
+            <nav class="hidden lg:flex items-center space-x-8 text-sm font-bold text-slate-300 tracking-wide">
+                <a href="#home" class="text-gold-400 border-b-2 border-gold-500 pb-0.5">Home</a>
+                <a href="#services" class="text-slate-300 hover:text-gold-400 transition-colors">Services</a>
+                <a href="#pvc" class="text-slate-300 hover:text-gold-400 transition-colors flex items-center gap-1">
                     <span>PVC Stream</span>
-                    <span class="text-[10px] bg-amber-50 text-amber-900 px-1.5 py-0.5 rounded font-mono uppercase border border-amber-300">Specialty</span>
+                    <span class="text-[10px] bg-slate-800 text-gold-400 px-1.5 py-0.5 rounded font-mono uppercase border border-slate-700">Specialty</span>
                 </a>
-                <a href="#products" class="text-slate-600 hover:text-gold-600 transition-colors">Products</a>
-                <a href="#about" class="text-slate-600 hover:text-gold-600 transition-colors">About Us</a>
+                <a href="#products" class="text-slate-300 hover:text-gold-400 transition-colors">Products</a>
+                <a href="#about" class="text-slate-300 hover:text-gold-400 transition-colors">About Us</a>
             </nav>
 
             <!-- CTA Actions (Quote & Contact) -->
             <div class="hidden sm:flex items-center space-x-3">
-                <a href="#calculator" class="px-4 py-2 text-xs font-bold text-slate-700 hover:text-slate-900 transition-colors">
+                <a href="#calculator" class="px-4 py-2 text-xs font-bold text-slate-300 hover:text-white transition-colors">
                     ROI Calculator
                 </a>
                 <a href="#contact" class="px-5 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider text-slate-900 bg-gold-500 hover:bg-gold-400 transition-all shadow-gold-glow flex items-center gap-2">
@@ -219,7 +204,7 @@
             <!-- Mobile Menu Toggle Button -->
             <div class="lg:hidden flex items-center gap-2">
                 <a href="#contact" class="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-500 text-slate-900">Contact</a>
-                <button id="mobileMenuBtn" class="p-2 rounded-lg text-slate-700 hover:bg-slate-100 focus:outline-none">
+                <button id="mobileMenuBtn" class="p-2 rounded-lg text-slate-300 hover:bg-slate-800 focus:outline-none">
                     <i data-lucide="menu" id="menuIcon" class="w-6 h-6"></i>
                 </button>
             </div>
@@ -227,14 +212,14 @@
         </div>
 
         <!-- Mobile Drawer -->
-        <div id="mobileDrawer" class="hidden lg:hidden bg-white border-t border-slate-200 px-6 py-5 space-y-3 font-semibold text-sm">
-            <a href="#home" class="block py-1 text-slate-900 font-bold">Home</a>
-            <a href="#services" class="block py-1 text-slate-600 hover:text-gold-600">Services</a>
-            <a href="#pvc" class="block py-1 text-slate-600 hover:text-gold-600">PVC Stream</a>
-            <a href="#products" class="block py-1 text-slate-600 hover:text-gold-600">Products</a>
-            <a href="#about" class="block py-1 text-slate-600 hover:text-gold-600">About Us</a>
-            <div class="pt-3 border-t border-slate-200 flex flex-col gap-2">
-                <a href="#calculator" class="block text-center py-2 text-slate-700 font-bold">Landfill Calculator</a>
+        <div id="mobileDrawer" class="hidden lg:hidden bg-slate-900 border-t border-slate-800 px-6 py-5 space-y-3 font-semibold text-sm">
+            <a href="#home" class="block py-1 text-gold-400 font-bold">Home</a>
+            <a href="#services" class="block py-1 text-slate-300 hover:text-gold-400">Services</a>
+            <a href="#pvc" class="block py-1 text-slate-300 hover:text-gold-400">PVC Stream</a>
+            <a href="#products" class="block py-1 text-slate-300 hover:text-gold-400">Products</a>
+            <a href="#about" class="block py-1 text-slate-300 hover:text-gold-400">About Us</a>
+            <div class="pt-3 border-t border-slate-800 flex flex-col gap-2">
+                <a href="#calculator" class="block text-center py-2 text-slate-300 font-bold">Landfill Calculator</a>
                 <a href="#contact" class="block text-center py-2.5 bg-gold-500 text-slate-900 font-bold rounded-xl text-xs uppercase tracking-wider shadow-gold-glow">
                     Contact Facilities
                 </a>
@@ -1146,7 +1131,7 @@
                 <!-- Col 1 & 2: Brand Profile -->
                 <div class="lg:col-span-2 space-y-4">
                     <a href="#home" class="inline-block">
-                        <img src="logot-yellow-light.svg" alt="Montreal Polymers Inc." class="h-10 w-auto">
+                        <img src="logo yellow.svg" alt="Montreal Polymers Inc." class="h-10 w-auto">
                     </a>
                     <p class="text-sm text-slate-400 leading-relaxed font-light max-w-sm">
                         Montreal Polymers Inc. is Quebec's premier chemical-free plastic recycling leader. We divert millions of pounds from landfills through 100% cold mechanical recovery, protecting soil, water, and Canadian manufacturing.
