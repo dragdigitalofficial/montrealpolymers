@@ -1,27 +1,28 @@
 # Montreal Polymers Inc. — Modern WordPress One-Page UI/UX Prototypes
 
 Live Client Preview Links:
-- 🌿 **Eco Yellowish-Green Variant**: **[https://dragdigitalofficial.github.io/montrealpolymers/](https://dragdigitalofficial.github.io/montrealpolymers/)**
-- ⬛ **Architectural Monochrome (Black & White) Variant**: **[https://dragdigitalofficial.github.io/montrealpolymers/bw.html](https://dragdigitalofficial.github.io/montrealpolymers/bw.html)**
+- ⚡ **Industrial Gold / Yellow Variant (NEW)**: **[https://dragdigitalofficial.github.io/montrealpolymers/yellow.html](https://dragdigitalofficial.github.io/montrealpolymers/yellow.html)**
+- 🌿 **Forest Green Variant**: **[https://dragdigitalofficial.github.io/montrealpolymers/](https://dragdigitalofficial.github.io/montrealpolymers/)**
 
 ---
 
 ## About the Project
-World-class, high-converting WordPress one-page website prototypes designed for **Montreal Polymers Inc.**, Quebec's leading eco-friendly industrial plastic and PVC recycling company. Both variants feature instant interactive theme toggling in the bottom right corner.
+World-class, high-converting WordPress one-page website prototypes designed for **Montreal Polymers Inc.**, Quebec's leading chemical-free industrial plastic and PVC recycling company. Both variants feature instant interactive theme toggling in the bottom right corner.
 
-### Design Variants Overview:
-1. **🌿 Warm Yellowish-Green & Gold Palette (`index.html`)**:
+### Design Variants:
+1. **⚡ Industrial Gold / Yellow Variant (`yellow.html`)**:
+   - Built around the signature logo yellow (`#ffcb0a`), warm amber accents (`#f59e0b`, `#fbbf24`), industrial slate/charcoal (`#0f172a`, `#1e293b`), and pure white backgrounds.
+   - **Green Top Utility Bar**: Preserves the forest green utility header (`#142306`) with Montreal address, direct phone, WhatsApp, and Recyc-Québec badges.
+   - **Split 50/50 Image & Content Sections**: High-resolution editorial photography (cold mechanical granulation machinery, organized receiving docks, pure regrind flakes) paired with data-driven copy.
+   - **Scroll-Triggered Appearing Animations**: Lightweight, fluid CSS & IntersectionObserver text and card reveal animations that smoothly slide up as users scroll.
+   - **3D Interactive WebGL Canvas**: Rotating geodesic lattice in golden amber with a faceted inner core and floating recycled polymer flakes.
+
+2. **🌿 Forest Green & Warm Leaf Variant (`index.html`)**:
    - Fresh organic lime-leaf tones (`#65a30d`, `#84cc16`, `#a3e635`) paired with brand gold (`#ffcb0a`) and deep warm forest (`#142306`).
-   - Represents earth preservation, soil protection, and chemical-free mechanical circularity.
-   - Interactive Three.js 3D emerald/lime polymer crystal node.
+   - Chemical-free mechanical circularity with interactive Three.js 3D emerald/lime polymer crystal node.
 
-2. **⬛ Architectural Monochrome & Silver Palette (`bw.html`)**:
-   - Pure obsidian black (`#000000`, `#09090b`), stark paper white (`#ffffff`), and calibrated zinc/silver accents (`#27272a`, `#71717a`, `#d4d4d8`).
-   - Highly editorial, Swiss industrial trade-desk aesthetic for an authoritative international trading house.
-   - Interactive Three.js 3D silver-crystalline geodesic wireframe sphere with monochrome particles.
-
-### Core Architecture & Features (Both Variants):
-- **100% Chemical-Free & Zero-Solvent Facility**: Direct comparison table pitting cold mechanical granulation against conventional toxic chemical baths.
+### Core Architecture & Features:
+- **100% Chemical-Free & Zero-Solvent Facility**: Direct contrast against toxic chemical acid washing and hazardous incinerators.
 - **Interactive Landfill & Revenue Calculator**: Dynamic slider calculating diverted landfill cubic meters and monthly scrap buyback revenue ($CAD).
 - **Dual Conversion Funnel**: Request Material Quote (Procurement Buyers) vs. Sell Factory Scrap with Photos (Factory Owners).
 - **Industrial Benchmarks**: Structured according to Envato Elements top industrial WordPress themes (*Wastex*, *Garbox*, *Trendustry*, *Dispossa*).
@@ -30,10 +31,10 @@ World-class, high-converting WordPress one-page website prototypes designed for 
 ---
 
 ## File Structure
-- `index.html` — Warm yellowish-green & gold one-page prototype
-- `bw.html` — Architectural monochrome black & white one-page prototype
+- `yellow.html` — Industrial Gold & Yellow one-page prototype with split image sections & scroll animations
+- `index.html` — Forest Green one-page prototype
 - `logot.svg` — Montreal Polymers brand vector logo (Yellowish-green & gold)
-- `logot-bw.svg` — Montreal Polymers monochrome black vector logo
-- `logot-bw-white.svg` — Montreal Polymers monochrome white vector logo
+- `logot-yellow.svg` — Montreal Polymers brand vector logo (Industrial Gold & Slate)
+- `logot-yellow-light.svg` — Montreal Polymers brand vector logo (Pure White & Industrial Gold for dark footer)
 - `montreal_polymers_design.svg` — 1440 × 5600 px vector artboard (drag-and-drop into Figma)
 - `figma_design_generator.js` — Figma console automation script to generate native Auto-Layout frames
