@@ -1,0 +1,486 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 5600" width="1440" height="5600">
+<defs>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap');
+  text { font-family: 'Plus Jakarta Sans', sans-serif; }
+  .font-display { font-family: 'Space Grotesk', sans-serif; font-weight: 700; }
+  .font-mono { font-family: monospace; }
+  .bold { font-weight: 700; }
+  .extrabold { font-weight: 800; }
+  .semibold { font-weight: 600; }
+  .medium { font-weight: 500; }
+</style>
+<linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#0a1403" />
+  <stop offset="50%" stop-color="#142306" />
+  <stop offset="100%" stop-color="#0a1403" />
+</linearGradient>
+<linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#273e0b" stop-opacity="0.6" />
+  <stop offset="100%" stop-color="#142306" stop-opacity="0.9" />
+</linearGradient>
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+  <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000000" flood-opacity="0.06"/>
+</filter>
+<filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+  <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#273e0b" flood-opacity="0.12"/>
+</filter>
+
+</defs>
+<rect width="1440" height="5600" fill="#ffffff" />
+<g id="TopBar">
+<rect x="0" y="0" width="1440" height="44" fill="#142306" />
+<text x="80" y="27" fill="#d9f99d" font-size="12" class="medium">📍 905 Avenue Munck, Laval &amp; Greater Montreal, QC   |   Receiving Docks: Mon-Fri 7:00 AM - 5:00 PM EST</text>
+<text x="1360" y="27" text-anchor="end" fill="#ffffff" font-size="12" class="bold">100% CHEMICAL-FREE  •  📞 +1 (450) 663-4200   |   [FR / EN]</text>
+</g>
+<g id="Header">
+<rect x="0" y="44" width="1440" height="80" fill="#ffffff" />
+<line x1="0" y1="124" x2="1440" y2="124" stroke="#e2e8f0" stroke-width="1" />
+<g id="Logo" transform="translate(80, 64)">
+<circle cx="12" cy="12" r="10" fill="#ffcb0a" />
+<circle cx="28" cy="22" r="8" fill="#65a30d" />
+<circle cx="36" cy="8" r="6" fill="#ffcb0a" />
+<text x="54" y="24" fill="#142306" font-size="20" class="bold font-display tracking-tight">MONTREAL POLYMERS</text>
+</g>
+<g id="NavLinks" transform="translate(540, 89)">
+<text x="0" y="0" fill="#65a30d" font-size="13" class="bold">Home</text>
+<text x="70" y="0" fill="#334155" font-size="13" class="semibold">About Us</text>
+<text x="160" y="0" fill="#334155" font-size="13" class="semibold">Services</text>
+<text x="250" y="0" fill="#334155" font-size="13" class="semibold">PVC Stream</text>
+<text x="360" y="0" fill="#334155" font-size="13" class="semibold">Products</text>
+<text x="450" y="0" fill="#334155" font-size="13" class="semibold">Process</text>
+<text x="535" y="0" fill="#334155" font-size="13" class="semibold">Landfill Audit</text>
+<text x="655" y="0" fill="#334155" font-size="13" class="semibold">Contact</text>
+</g>
+<g id="HeaderButtons" transform="translate(1160, 64)">
+<rect x="0" y="0" width="190" height="42" rx="10" fill="#65a30d" />
+<text x="95" y="26" text-anchor="middle" fill="#ffffff" font-size="12" class="bold">REQUEST FREE BIN →</text>
+</g>
+</g>
+<g id="Hero">
+<rect x="0" y="124" width="1440" height="696" fill="url(#heroGrad)" />
+<g transform="translate(80, 200)">
+<rect x="0" y="0" width="380" height="32" rx="16" fill="#3f6212" fill-opacity="0.8" stroke="#84cc16" stroke-width="1" />
+<text x="25" y="21" fill="#d9f99d" font-size="12" class="semibold">✓ ZERO CHEMICAL SOLVENTS  •  100% MECHANICAL</text>
+</g>
+<text x="80" y="300" fill="#ffffff" font-size="54" class="extrabold font-display" line-height="1.15">Saving Earth from Chemicals.</text>
+<text x="80" y="365" fill="#a3e635" font-size="54" class="extrabold font-display">Zero Plastic Waste <tspan fill="#ffffff">to Landfills.</tspan></text>
+<text x="80" y="425" fill="#ecfccb" font-size="17" class="medium" fill-opacity="0.85">Montreal Polymers replaces toxic chemical washing machines and hazardous incinerators</text>
+<text x="80" y="455" fill="#ecfccb" font-size="17" class="medium" fill-opacity="0.85">with pure cold mechanical granulation — turning industrial PVC off-cuts into circular raw materials.</text>
+<g transform="translate(80, 510)">
+<rect x="0" y="0" width="230" height="52" rx="12" fill="#84cc16" />
+<text x="115" y="32" text-anchor="middle" fill="#ffffff" font-size="14" class="bold">SCHEDULE SCRAP PICKUP</text>
+<rect x="250" y="0" width="220" height="52" rx="12" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1.5" />
+<text x="360" y="32" text-anchor="middle" fill="#ffffff" font-size="14" class="bold">LANDFILL CALCULATOR</text>
+</g>
+<g transform="translate(80, 630)">
+<line x1="0" y1="0" x2="600" y2="0" stroke="#3f6212" stroke-width="1" />
+<text x="0" y="40" fill="#ffffff" font-size="30" class="extrabold font-display">15,000+</text>
+<text x="0" y="65" fill="#bef264" font-size="12" class="medium">Tons Saved Annually</text>
+<text x="220" y="40" fill="#ffcb0a" font-size="30" class="extrabold font-display">0.00 L</text>
+<text x="220" y="65" fill="#bef264" font-size="12" class="medium">Chemical Solvents Used</text>
+<text x="440" y="40" fill="#a3e635" font-size="30" class="extrabold font-display">99.85%</text>
+<text x="440" y="65" fill="#bef264" font-size="12" class="medium">Certified Flake Purity</text>
+</g>
+<g transform="translate(880, 200)">
+<rect x="0" y="0" width="480" height="500" rx="24" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.5" />
+<text x="40" y="50" fill="#bef264" font-size="13" class="bold font-mono">3D CIRCULAR CORE ACTIVE  •  SOLVENT-FREE</text>
+<rect x="40" y="80" width="400" height="260" rx="16" fill="url(#cardGrad)" stroke="#84cc16" stroke-opacity="0.3" stroke-width="1" />
+<circle cx="240" cy="210" r="80" fill="none" stroke="#a3e635" stroke-width="1.5" stroke-dasharray="6,6" />
+<circle cx="240" cy="210" r="55" fill="#3f6212" stroke="#bef264" stroke-width="2" />
+<ellipse cx="240" cy="210" rx="110" ry="35" fill="none" stroke="#ffcb0a" stroke-width="2" transform="rotate(-20 240 210)" />
+<text x="240" y="216" text-anchor="middle" fill="#ffffff" font-size="14" class="bold">EARTH CORE</text>
+<text x="40" y="380" fill="#ffffff" font-size="14" class="bold">Methodology: 100% Cold Mechanical Granulation</text>
+<text x="40" y="410" fill="#ffcb0a" font-size="14" class="bold">Primary Material: Rigid PVC, Siding &amp; Piping Off-cuts</text>
+<text x="40" y="440" fill="#ecfccb" font-size="14" class="medium">Logistics: Free Roll-off Bins &amp; Freight Covered in QC/ON</text>
+</g>
+</g>
+<g id="StatsBanner" transform="translate(80, 770)" filter="url(#shadow)">
+<rect x="0" y="0" width="1280" height="120" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<g transform="translate(60, 25)">
+<text x="0" y="35" fill="#142306" font-size="34" class="extrabold font-display">25+</text>
+<text x="0" y="58" fill="#0f172a" font-size="13" class="bold">Years in Quebec</text>
+<text x="0" y="76" fill="#64748b" font-size="11" class="medium">Pioneering eco-recycling</text>
+</g>
+<g transform="translate(380, 25)">
+<text x="0" y="35" fill="#142306" font-size="34" class="extrabold font-display">45,000 m³</text>
+<text x="0" y="58" fill="#0f172a" font-size="13" class="bold">Landfill Volume Saved</text>
+<text x="0" y="76" fill="#64748b" font-size="11" class="medium">Diverted from decay</text>
+</g>
+<g transform="translate(700, 25)">
+<text x="0" y="35" fill="#142306" font-size="34" class="extrabold font-display">0%</text>
+<text x="0" y="58" fill="#0f172a" font-size="13" class="bold">Chemical Solvents Used</text>
+<text x="0" y="76" fill="#64748b" font-size="11" class="medium">100% mechanical recovery</text>
+</g>
+<g transform="translate(1020, 25)">
+<text x="0" y="35" fill="#142306" font-size="34" class="extrabold font-display">100%</text>
+<text x="0" y="58" fill="#0f172a" font-size="13" class="bold">Circular Return</text>
+<text x="0" y="76" fill="#64748b" font-size="11" class="medium">Virgin resin equivalent</text>
+</g>
+</g>
+<g id="AboutUs" transform="translate(0, 940)">
+<g transform="translate(80, 40)">
+<rect x="0" y="0" width="540" height="480" rx="24" fill="#142306" />
+<rect x="20" y="20" width="500" height="440" rx="16" fill="#273e0b" fill-opacity="0.6" stroke="#84cc16" stroke-opacity="0.3" stroke-width="1" />
+<text x="270" y="220" text-anchor="middle" fill="#ffffff" font-size="24" class="bold font-display">LAVAL PROCESSING PLANT</text>
+<text x="270" y="255" text-anchor="middle" fill="#bef264" font-size="14" class="medium">Cold Rotor Shredders &amp; Optical Sorters</text>
+<rect x="30" y="360" width="220" height="75" rx="16" fill="#ffffff" filter="url(#shadow)" />
+<text x="50" y="405" fill="#65a30d" font-size="28" class="extrabold font-display">25</text>
+<text x="95" y="395" fill="#0f172a" font-size="12" class="bold">Years of Excellence</text>
+<text x="95" y="415" fill="#64748b" font-size="11" class="medium">Montreal &amp; Laval, QC</text>
+</g>
+<g transform="translate(680, 50)">
+<rect x="0" y="0" width="180" height="28" rx="6" fill="#ecfccb" />
+<text x="14" y="19" fill="#4d7c0f" font-size="11" class="bold font-mono uppercase">ABOUT MONTREAL POLYMERS</text>
+<text x="0" y="70" fill="#0f172a" font-size="36" class="extrabold font-display">Why We Never Use Chemical</text>
+<text x="0" y="115" fill="#0f172a" font-size="36" class="extrabold font-display">Washing Machines or Solvents</text>
+<text x="0" y="165" fill="#475569" font-size="15" class="medium">Traditional recyclers submerge polymers in caustic acid baths or high-heat incinerators,</text>
+<text x="0" y="190" fill="#475569" font-size="15" class="medium">releasing dangerous chlorine VOCs and generating toxic slurry that threatens local soil.</text>
+<text x="0" y="225" fill="#475569" font-size="15" class="medium">At Montreal Polymers, we engineered a 100% Cold Mechanical Separation process:</text>
+<text x="0" y="250" fill="#475569" font-size="15" class="medium">ambient-temperature rotary shredding, acoustic dust aspiration, and optical color sorting.</text>
+<g transform="translate(0, 290)">
+<text x="0" y="0" fill="#65a30d" font-size="14" class="bold">✓ Zero Hazardous Chemicals</text>
+<text x="0" y="20" fill="#64748b" font-size="12" class="medium">0% solvent effluent, clean for waterways</text>
+</g>
+<g transform="translate(320, 290)">
+<text x="0" y="0" fill="#65a30d" font-size="14" class="bold">✓ Landfill Elimination</text>
+<text x="0" y="20" fill="#64748b" font-size="12" class="medium">Saving 45,000+ m³ municipal space annually</text>
+</g>
+<g transform="translate(0, 360)">
+<text x="0" y="0" fill="#65a30d" font-size="14" class="bold">✓ Recyc-Québec Aligned</text>
+<text x="0" y="20" fill="#64748b" font-size="12" class="medium">Traceable circular economy standards</text>
+</g>
+<g transform="translate(320, 360)">
+<text x="0" y="0" fill="#65a30d" font-size="14" class="bold">✓ Free Freight & Containers</text>
+<text x="0" y="20" fill="#64748b" font-size="12" class="medium">Drop-off roll-off bins across QC & ON</text>
+</g>
+<rect x="0" y="420" width="220" height="46" rx="10" fill="#65a30d" />
+<text x="110" y="448" text-anchor="middle" fill="#ffffff" font-size="13" class="bold">EXPLORE ALL SERVICES →</text>
+</g>
+</g>
+<g id="Services" transform="translate(0, 1540)">
+<rect x="0" y="0" width="1440" height="720" fill="#f8fafc" />
+<line x1="0" y1="0" x2="1440" y2="0" stroke="#e2e8f0" stroke-width="1" />
+<text x="720" y="60" text-anchor="middle" fill="#65a30d" font-size="12" class="bold font-mono uppercase">INDUSTRIAL SOLUTIONS</text>
+<text x="720" y="105" text-anchor="middle" fill="#0f172a" font-size="38" class="extrabold font-display">Complete Circular Services for Manufacturing</text>
+<text x="720" y="135" text-anchor="middle" fill="#64748b" font-size="15" class="medium">Turnkey solutions for extrusion plants, window fabricators, and commercial converters.</text>
+<g transform="translate(80, 170)" filter="url(#shadow)">
+<rect x="0" y="0" width="400" height="220" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="25" y="25" width="46" height="46" rx="12" fill="#ecfccb" />
+<text x="48" y="54" text-anchor="middle" fill="#4d7c0f" font-size="20">⚡</text>
+<text x="25" y="105" fill="#0f172a" font-size="18" class="bold font-display">Scrap Purchasing & Free Bins</text>
+<text x="25" y="135" fill="#64748b" font-size="13" class="medium">We buy production offcuts and purge with free co</text>
+<text x="25" y="155" fill="#64748b" font-size="13" class="medium">ntainers and roll-offs.</text>
+<text x="25" y="195" fill="#65a30d" font-size="12" class="bold">Learn More →</text>
+</g>
+<g transform="translate(510, 170)" filter="url(#shadow)">
+<rect x="0" y="0" width="400" height="220" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="25" y="25" width="46" height="46" rx="12" fill="#ecfccb" />
+<text x="48" y="54" text-anchor="middle" fill="#4d7c0f" font-size="20">⚡</text>
+<text x="25" y="105" fill="#0f172a" font-size="18" class="bold font-display">Cold Mechanical Granulation</text>
+<text x="25" y="135" fill="#64748b" font-size="13" class="medium">Heavy-duty rotary shear machines running at ambi</text>
+<text x="25" y="155" fill="#64748b" font-size="13" class="medium">ent temperatures.</text>
+<text x="25" y="195" fill="#65a30d" font-size="12" class="bold">Learn More →</text>
+</g>
+<g transform="translate(940, 170)" filter="url(#shadow)">
+<rect x="0" y="0" width="400" height="220" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="25" y="25" width="46" height="46" rx="12" fill="#ecfccb" />
+<text x="48" y="54" text-anchor="middle" fill="#4d7c0f" font-size="20">⚡</text>
+<text x="25" y="105" fill="#0f172a" font-size="18" class="bold font-display">Closed-Loop Toll Processing</text>
+<text x="25" y="135" fill="#64748b" font-size="13" class="medium">Send your scrap; we granulate and return calibra</text>
+<text x="25" y="155" fill="#64748b" font-size="13" class="medium">ted flakes, cutting resin costs 40%.</text>
+<text x="25" y="195" fill="#65a30d" font-size="12" class="bold">Learn More →</text>
+</g>
+<g transform="translate(80, 420)" filter="url(#shadow)">
+<rect x="0" y="0" width="400" height="220" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="25" y="25" width="46" height="46" rx="12" fill="#ecfccb" />
+<text x="48" y="54" text-anchor="middle" fill="#4d7c0f" font-size="20">⚡</text>
+<text x="25" y="105" fill="#0f172a" font-size="18" class="bold font-display">Landfill Diversion ESG Audits</text>
+<text x="25" y="135" fill="#64748b" font-size="13" class="medium">Official Certificates of Recycling for ISO 14001</text>
+<text x="25" y="155" fill="#64748b" font-size="13" class="medium">, LEED and ESG reporting.</text>
+<text x="25" y="195" fill="#65a30d" font-size="12" class="bold">Learn More →</text>
+</g>
+<g transform="translate(510, 420)" filter="url(#shadow)">
+<rect x="0" y="0" width="400" height="220" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="25" y="25" width="46" height="46" rx="12" fill="#ecfccb" />
+<text x="48" y="54" text-anchor="middle" fill="#4d7c0f" font-size="20">⚡</text>
+<text x="25" y="105" fill="#0f172a" font-size="18" class="bold font-display">Optical & Color Sorting</text>
+<text x="25" y="135" fill="#64748b" font-size="13" class="medium">Camera sorting isolates white window profiles fr</text>
+<text x="25" y="155" fill="#64748b" font-size="13" class="medium">om colored scrap, removing metal.</text>
+<text x="25" y="195" fill="#65a30d" font-size="12" class="bold">Learn More →</text>
+</g>
+<g transform="translate(940, 420)" filter="url(#shadow)">
+<rect x="0" y="0" width="400" height="220" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="25" y="25" width="46" height="46" rx="12" fill="#ecfccb" />
+<text x="48" y="54" text-anchor="middle" fill="#4d7c0f" font-size="20">⚡</text>
+<text x="25" y="105" fill="#0f172a" font-size="18" class="bold font-display">Bulk Transit & Packaging</text>
+<text x="25" y="135" fill="#64748b" font-size="13" class="medium">Poly-lined 1,000kg super sacks, heavy-duty gaylo</text>
+<text x="25" y="155" fill="#64748b" font-size="13" class="medium">rds, or bulk pneumatic tankers.</text>
+<text x="25" y="195" fill="#65a30d" font-size="12" class="bold">Learn More →</text>
+</g>
+</g>
+<g id="PVCFocus" transform="translate(0, 2260)">
+<rect x="0" y="0" width="1440" height="600" fill="#ffffff" />
+<g transform="translate(80, 60)">
+<rect x="0" y="0" width="240" height="28" rx="6" fill="#ecfccb" />
+<text x="14" y="19" fill="#4d7c0f" font-size="11" class="bold font-mono uppercase">POLYVINYL CHLORIDE (PVC) SPECIALTY</text>
+<text x="0" y="70" fill="#0f172a" font-size="36" class="extrabold font-display">We Buy &amp; Reprocess All Forms</text>
+<text x="0" y="115" fill="#0f172a" font-size="36" class="extrabold font-display">of Industrial PVC Scrap</text>
+<text x="0" y="165" fill="#475569" font-size="15" class="medium">Montreal Polymers accepts rigid, extruded, flexible, and thermoformed PVC offcuts.</text>
+<g transform="translate(0, 200)">
+<rect x="0" y="0" width="250" height="42" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="15" y="26" fill="#0f172a" font-size="13" class="bold">✓  Window & Door Profiles</text>
+</g>
+<g transform="translate(270, 200)">
+<rect x="0" y="0" width="250" height="42" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="15" y="26" fill="#0f172a" font-size="13" class="bold">✓  Vinyl Siding Off-Cuts</text>
+</g>
+<g transform="translate(0, 260)">
+<rect x="0" y="0" width="250" height="42" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="15" y="26" fill="#0f172a" font-size="13" class="bold">✓  Rigid Conduit & Piping</text>
+</g>
+<g transform="translate(270, 260)">
+<rect x="0" y="0" width="250" height="42" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="15" y="26" fill="#0f172a" font-size="13" class="bold">✓  Edge Banding & Blister Packs</text>
+</g>
+<g transform="translate(0, 320)">
+<rect x="0" y="0" width="250" height="42" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="15" y="26" fill="#0f172a" font-size="13" class="bold">✓  Extrusion Purge Lumps</text>
+</g>
+<g transform="translate(270, 320)">
+<rect x="0" y="0" width="250" height="42" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="15" y="26" fill="#0f172a" font-size="13" class="bold">✓  Reground Flakes (All Colors)</text>
+</g>
+<rect x="0" y="390" width="260" height="48" rx="10" fill="#142306" />
+<text x="130" y="420" text-anchor="middle" fill="#ffffff" font-size="12" class="bold">GET PVC MARKET RATES →</text>
+</g>
+<g transform="translate(740, 70)" filter="url(#shadow)">
+<rect x="0" y="0" width="620" height="440" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<text x="40" y="45" fill="#0f172a" font-size="20" class="bold font-display">Process Integrity Comparison</text>
+<rect x="40" y="70" width="540" height="150" rx="16" fill="#f7fee7" stroke="#bef264" stroke-width="1" />
+<text x="65" y="105" fill="#4d7c0f" font-size="15" class="bold">✓ Montreal Polymers Cold Mechanical Process (100% Eco)</text>
+<text x="65" y="135" fill="#475569" font-size="13" class="medium">Room-temperature rotary shredding, acoustic dust aspiration, optical color sorting,</text>
+<text x="65" y="160" fill="#475569" font-size="13" class="medium">zero solvent effluent, and certified chemical-free circular flakes.</text>
+<rect x="40" y="240" width="540" height="150" rx="16" fill="#fef2f2" stroke="#fca5a5" stroke-width="1" />
+<text x="65" y="275" fill="#b91c1c" font-size="15" class="bold">✗ Conventional Chemical Dissolving &amp; Incineration (Hazardous)</text>
+<text x="65" y="305" fill="#475569" font-size="13" class="medium">Heavy caustic chemical baths, acid dissolving, dioxin and toxic chlorine gas release,</text>
+<text x="65" y="330" fill="#475569" font-size="13" class="medium">and hazardous sludge deposited in municipal landfills.</text>
+</g>
+</g>
+<g id="Products" transform="translate(0, 2860)">
+<rect x="0" y="0" width="1440" height="660" fill="#f8fafc" />
+<line x1="0" y1="0" x2="1440" y2="0" stroke="#e2e8f0" stroke-width="1" />
+<text x="720" y="60" text-anchor="middle" fill="#65a30d" font-size="12" class="bold font-mono uppercase">SECONDARY RAW MATERIALS</text>
+<text x="720" y="105" text-anchor="middle" fill="#0f172a" font-size="38" class="extrabold font-display">Tested Flakes &amp; High-Purity Regrind</text>
+<text x="720" y="135" text-anchor="middle" fill="#64748b" font-size="15" class="medium">Guaranteed free of moisture, metal, and foreign contaminants. Ready for immediate re-extrusion.</text>
+<g transform="translate(80, 170)" filter="url(#shadow)">
+<rect x="0" y="0" width="400" height="420" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="20" y="20" width="360" height="150" rx="16" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+<text x="200" y="85" text-anchor="middle" fill="#0f172a" font-size="18" class="bold font-display">White Rigid PVC Flakes</text>
+<text x="200" y="115" text-anchor="middle" fill="#64748b" font-size="13" class="font-mono">Flocons PVC Blancs</text>
+<text x="30" y="210" fill="#64748b" font-size="12">Screen Calibration: <tspan fill="#0f172a" font-weight="700">3/8" (9.5mm)</tspan></text>
+<text x="30" y="240" fill="#64748b" font-size="12">Contamination: <tspan fill="#65a30d" font-weight="700"><0.02% Clean</tspan></text>
+<text x="30" y="270" fill="#64748b" font-size="12">Moisture / Bulk: <tspan fill="#0f172a" font-weight="700"><0.05%</tspan></text>
+<text x="30" y="300" fill="#64748b" font-size="12">Application: <tspan fill="#0f172a" font-weight="700">Window & Door Extrusion</tspan></text>
+<rect x="25" y="340" width="350" height="46" rx="12" fill="#65a30d" />
+<text x="200" y="368" text-anchor="middle" fill="#ffffff" font-size="12" class="bold">REQUEST SPEC SHEET &amp; SAMPLE</text>
+</g>
+<g transform="translate(510, 170)" filter="url(#shadow)">
+<rect x="0" y="0" width="400" height="420" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="20" y="20" width="360" height="150" rx="16" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+<text x="200" y="85" text-anchor="middle" fill="#0f172a" font-size="18" class="bold font-display">Mixed Color PVC Granules</text>
+<text x="200" y="115" text-anchor="middle" fill="#64748b" font-size="13" class="font-mono">Flocons Couleurs Mixtes</text>
+<text x="30" y="210" fill="#64748b" font-size="12">Screen Calibration: <tspan fill="#0f172a" font-weight="700">5/16" or 3/8"</tspan></text>
+<text x="30" y="240" fill="#64748b" font-size="12">Contamination: <tspan fill="#65a30d" font-weight="700"><0.03% Clean</tspan></text>
+<text x="30" y="270" fill="#64748b" font-size="12">Moisture / Bulk: <tspan fill="#0f172a" font-weight="700">0.55-0.65 g/cm³</tspan></text>
+<text x="30" y="300" fill="#64748b" font-size="12">Application: <tspan fill="#0f172a" font-weight="700">Conduit, Pipe & Core</tspan></text>
+<rect x="25" y="340" width="350" height="46" rx="12" fill="#65a30d" />
+<text x="200" y="368" text-anchor="middle" fill="#ffffff" font-size="12" class="bold">REQUEST SPEC SHEET &amp; SAMPLE</text>
+</g>
+<g transform="translate(940, 170)" filter="url(#shadow)">
+<rect x="0" y="0" width="400" height="420" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="20" y="20" width="360" height="150" rx="16" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+<text x="200" y="85" text-anchor="middle" fill="#0f172a" font-size="18" class="bold font-display">Specialty PE / PP Polymers</text>
+<text x="200" y="115" text-anchor="middle" fill="#64748b" font-size="13" class="font-mono">PEHD, PELD & PP</text>
+<text x="30" y="210" fill="#64748b" font-size="12">Screen Calibration: <tspan fill="#0f172a" font-weight="700">Custom Mesh</tspan></text>
+<text x="30" y="240" fill="#64748b" font-size="12">Contamination: <tspan fill="#65a30d" font-weight="700">Batch Tested</tspan></text>
+<text x="30" y="270" fill="#64748b" font-size="12">Moisture / Bulk: <tspan fill="#0f172a" font-weight="700">1,000kg Sacks</tspan></text>
+<text x="30" y="300" fill="#64748b" font-size="12">Application: <tspan fill="#0f172a" font-weight="700">Injection & Blown Film</tspan></text>
+<rect x="25" y="340" width="350" height="46" rx="12" fill="#65a30d" />
+<text x="200" y="368" text-anchor="middle" fill="#ffffff" font-size="12" class="bold">REQUEST SPEC SHEET &amp; SAMPLE</text>
+</g>
+</g>
+<g id="Process" transform="translate(0, 3520)">
+<rect x="0" y="0" width="1440" height="460" fill="#ffffff" />
+<text x="720" y="60" text-anchor="middle" fill="#65a30d" font-size="12" class="bold font-mono uppercase">HOW WE OPERATE</text>
+<text x="720" y="105" text-anchor="middle" fill="#0f172a" font-size="38" class="extrabold font-display">4-Step Cold Mechanical Workflow</text>
+<g transform="translate(80, 160)">
+<circle cx="60" cy="50" r="45" fill="#f7fee7" stroke="#bef264" stroke-width="2" />
+<text x="60" y="60" text-anchor="middle" fill="#4d7c0f" font-size="28" class="extrabold font-display">01</text>
+<text x="60" y="130" text-anchor="middle" fill="#0f172a" font-size="17" class="bold font-display">Container Drop</text>
+<text x="60" y="160" text-anchor="middle" fill="#64748b" font-size="12" class="medium">Roll-off bins or gaylord boxes plac</text>
+<text x="60" y="180" text-anchor="middle" fill="#64748b" font-size="12" class="medium">ed directly on your docks.</text>
+</g>
+<g transform="translate(390, 160)">
+<circle cx="60" cy="50" r="45" fill="#f7fee7" stroke="#bef264" stroke-width="2" />
+<text x="60" y="60" text-anchor="middle" fill="#4d7c0f" font-size="28" class="extrabold font-display">02</text>
+<text x="60" y="130" text-anchor="middle" fill="#0f172a" font-size="17" class="bold font-display">Optical Sort</text>
+<text x="60" y="160" text-anchor="middle" fill="#64748b" font-size="12" class="medium">Dual cameras isolate pure white pro</text>
+<text x="60" y="180" text-anchor="middle" fill="#64748b" font-size="12" class="medium">files from colored scrap.</text>
+</g>
+<g transform="translate(700, 160)">
+<circle cx="60" cy="50" r="45" fill="#f7fee7" stroke="#bef264" stroke-width="2" />
+<text x="60" y="60" text-anchor="middle" fill="#4d7c0f" font-size="28" class="extrabold font-display">03</text>
+<text x="60" y="130" text-anchor="middle" fill="#0f172a" font-size="17" class="bold font-display">Cold Granulation</text>
+<text x="60" y="160" text-anchor="middle" fill="#64748b" font-size="12" class="medium">Rotary blades shred under 45°C with</text>
+<text x="60" y="180" text-anchor="middle" fill="#64748b" font-size="12" class="medium">out chemical washes.</text>
+</g>
+<g transform="translate(1010, 160)">
+<circle cx="60" cy="50" r="45" fill="#f7fee7" stroke="#bef264" stroke-width="2" />
+<text x="60" y="60" text-anchor="middle" fill="#4d7c0f" font-size="28" class="extrabold font-display">04</text>
+<text x="60" y="130" text-anchor="middle" fill="#0f172a" font-size="17" class="bold font-display">Certified Payout</text>
+<text x="60" y="160" text-anchor="middle" fill="#64748b" font-size="12" class="medium">Scale weights, prompt Net 15/30 pay</text>
+<text x="60" y="180" text-anchor="middle" fill="#64748b" font-size="12" class="medium">ment & ESG certificates.</text>
+</g>
+</g>
+<g id="Calculator" transform="translate(0, 3980)">
+<rect x="0" y="0" width="1440" height="540" fill="#142306" />
+<g transform="translate(80, 50)">
+<rect x="0" y="0" width="1280" height="440" rx="24" fill="#0a1403" stroke="#3f6212" stroke-width="1.5" />
+<g transform="translate(60, 50)">
+<text x="0" y="25" fill="#ffcb0a" font-size="12" class="bold font-mono uppercase">CORPORATE LANDFILL ESTIMATOR</text>
+<text x="0" y="70" fill="#ffffff" font-size="32" class="extrabold font-display">Calculate Facility Landfill Savings</text>
+<text x="0" y="105" fill="#ffffff" font-size="32" class="extrabold font-display">&amp; Scrap Buyback Payout</text>
+<text x="0" y="145" fill="#ecfccb" font-size="14" class="medium">Slide to estimate your monthly industrial plastic scrap volume:</text>
+<text x="0" y="195" fill="#ffffff" font-size="14" class="bold">Monthly Scrap: <tspan fill="#ffcb0a">30 Tons / Mo</tspan></text>
+<rect x="0" y="215" width="560" height="8" rx="4" fill="#142306" />
+<rect x="0" y="215" width="160" height="8" rx="4" fill="#84cc16" />
+<circle cx="160" cy="219" r="12" fill="#84cc16" stroke="#ffffff" stroke-width="3" />
+<rect x="0" y="260" width="170" height="42" rx="10" fill="#84cc16" />
+<text x="85" y="286" text-anchor="middle" fill="#ffffff" font-size="12" class="bold">Rigid PVC Profiles</text>
+<rect x="190" y="260" width="170" height="42" rx="10" fill="#142306" stroke="#3f6212" stroke-width="1" />
+<text x="275" y="286" text-anchor="middle" fill="#d9f99d" font-size="12" class="bold">Siding / Pipe Scrap</text>
+<rect x="380" y="260" width="170" height="42" rx="10" fill="#142306" stroke="#3f6212" stroke-width="1" />
+<text x="465" y="286" text-anchor="middle" fill="#d9f99d" font-size="12" class="bold">PE / PP Resins</text>
+</g>
+<g transform="translate(740, 50)">
+<rect x="0" y="0" width="480" height="340" rx="16" fill="#142306" stroke="#84cc16" stroke-width="1" />
+<text x="35" y="45" fill="#ffcb0a" font-size="12" class="bold font-mono">VERIFIED ANNUAL ESG &amp; FISCAL IMPACT</text>
+<text x="35" y="95" fill="#ecfccb" font-size="13">Landfill Volume Diverted Annually:</text>
+<text x="35" y="135" fill="#ffffff" font-size="34" class="extrabold font-display">576 m³ / year</text>
+<text x="35" y="160" fill="#a3e635" font-size="11">Equivalent to 48 standard municipal garbage trucks</text>
+<line x1="35" y1="185" x2="445" y2="185" stroke="#273e0b" stroke-width="1" />
+<text x="35" y="215" fill="#ecfccb" font-size="13">Estimated Monthly Scrap Buyback:</text>
+<text x="35" y="255" fill="#ffcb0a" font-size="34" class="extrabold font-display">$14,400 / mo</text>
+<rect x="35" y="280" width="410" height="44" rx="10" fill="#ffcb0a" />
+<text x="240" y="308" text-anchor="middle" fill="#142306" font-size="12" class="bold">LOCK IN SCRAP BUYBACK CONTRACT →</text>
+</g>
+</g>
+</g>
+<g id="Contact" transform="translate(0, 4520)">
+<rect x="0" y="0" width="1440" height="640" fill="#ffffff" />
+<g transform="translate(80, 50)">
+<text x="0" y="25" fill="#65a30d" font-size="12" class="bold font-mono uppercase">DIRECT FACILITY DISPATCH</text>
+<text x="0" y="70" fill="#0f172a" font-size="36" class="extrabold font-display">Schedule Scrap Pickup or</text>
+<text x="0" y="115" fill="#0f172a" font-size="36" class="extrabold font-display">Request Flake Samples</text>
+<text x="0" y="155" fill="#64748b" font-size="14" class="medium">Drop-off containers and freight across Quebec and Ontario within 48 hours.</text>
+<g transform="translate(0, 195)">
+<rect x="0" y="0" width="500" height="70" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="25" y="28" fill="#64748b" font-size="11" class="bold font-mono uppercase">Processing Facilities</text>
+<text x="25" y="50" fill="#0f172a" font-size="14" class="bold">905 Avenue Munck, Laval, QC H7S 1B1</text>
+</g>
+<g transform="translate(0, 280)">
+<rect x="0" y="0" width="500" height="70" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="25" y="28" fill="#64748b" font-size="11" class="bold font-mono uppercase">Dispatch Hotlines</text>
+<text x="25" y="50" fill="#0f172a" font-size="14" class="bold">+1 (450) 663-4200  /  (514) 890-POLYMERS</text>
+</g>
+<g transform="translate(0, 365)">
+<rect x="0" y="0" width="500" height="70" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="25" y="28" fill="#64748b" font-size="11" class="bold font-mono uppercase">Inquiries & Specs</text>
+<text x="25" y="50" fill="#0f172a" font-size="14" class="bold">info@montrealpolymers.com</text>
+</g>
+</g>
+<g transform="translate(680, 50)" filter="url(#shadow)">
+<rect x="0" y="0" width="680" height="520" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<rect x="40" y="30" width="220" height="40" rx="10" fill="#65a30d" />
+<text x="150" y="55" text-anchor="middle" fill="#ffffff" font-size="12" class="bold">Request Material Quote</text>
+<rect x="280" y="30" width="220" height="40" rx="10" fill="#f1f5f9" />
+<text x="390" y="55" text-anchor="middle" fill="#475569" font-size="12" class="bold">Sell Factory Scrap (&lt;3 Min)</text>
+<g transform="translate(40, 100)">
+<text x="0" y="15" fill="#475569" font-size="11" class="bold font-mono uppercase">Full Name *</text>
+<rect x="0" y="25" width="280" height="42" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+<text x="15" y="51" fill="#0f172a" font-size="13">Marc-André Roy</text>
+</g>
+<g transform="translate(360, 100)">
+<text x="0" y="15" fill="#475569" font-size="11" class="bold font-mono uppercase">Company *</text>
+<rect x="0" y="25" width="280" height="42" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+<text x="15" y="51" fill="#0f172a" font-size="13">Laval Windows & Profiles</text>
+</g>
+<g transform="translate(40, 180)">
+<text x="0" y="15" fill="#475569" font-size="11" class="bold font-mono uppercase">Business Email *</text>
+<rect x="0" y="25" width="280" height="42" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+<text x="15" y="51" fill="#0f172a" font-size="13">m.roy@company.com</text>
+</g>
+<g transform="translate(360, 180)">
+<text x="0" y="15" fill="#475569" font-size="11" class="bold font-mono uppercase">Direct Phone *</text>
+<rect x="0" y="25" width="280" height="42" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+<text x="15" y="51" fill="#0f172a" font-size="13">(450) 000-0000</text>
+</g>
+<g transform="translate(40, 260)">
+<text x="0" y="15" fill="#475569" font-size="11" class="bold font-mono uppercase">Material Stream</text>
+<rect x="0" y="25" width="280" height="42" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+<text x="15" y="51" fill="#0f172a" font-size="13">Rigid PVC Window Profiles</text>
+</g>
+<g transform="translate(360, 260)">
+<text x="0" y="15" fill="#475569" font-size="11" class="bold font-mono uppercase">Volume</text>
+<rect x="0" y="25" width="280" height="42" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+<text x="15" y="51" fill="#0f172a" font-size="13">15 to 40 Tons / Month</text>
+</g>
+<g transform="translate(40, 350)">
+<text x="0" y="15" fill="#475569" font-size="11" class="bold font-mono uppercase">Message / Requirements</text>
+<rect x="0" y="25" width="600" height="60" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+<text x="15" y="55" fill="#94a3b8" font-size="13">Describe your scrap material or specific flake mesh/purity...</text>
+</g>
+<rect x="40" y="450" width="600" height="46" rx="12" fill="#65a30d" />
+<text x="340" y="478" text-anchor="middle" fill="#ffffff" font-size="13" class="bold">SUBMIT DISPATCH REQUEST →</text>
+</g>
+</g>
+<g id="Footer" transform="translate(0, 5160)">
+<rect x="0" y="0" width="1440" height="440" fill="#0a1403" />
+<line x1="0" y1="0" x2="1440" y2="0" stroke="#273e0b" stroke-width="1" />
+<g transform="translate(80, 60)">
+<text x="0" y="30" fill="#ffffff" font-size="22" class="bold font-display">MONTREAL POLYMERS</text>
+<text x="0" y="70" fill="#bef264" font-size="13" class="medium">Quebec’s chemical-free plastic recycling leader.</text>
+<text x="0" y="95" fill="#bef264" font-size="13" class="medium">Diverting millions of pounds from landfills through</text>
+<text x="0" y="120" fill="#bef264" font-size="13" class="medium">100% cold mechanical recovery.</text>
+<text x="0" y="160" fill="#ffcb0a" font-size="12" class="bold font-mono">Recyc-Québec Aligned • 100% Zero-Solvent Facility</text>
+</g>
+<g transform="translate(520, 60)">
+<text x="0" y="25" fill="#ffffff" font-size="13" class="bold font-mono uppercase">Solutions</text>
+<text x="0" y="60" fill="#bef264" font-size="13">Scrap Purchasing</text>
+<text x="0" y="85" fill="#bef264" font-size="13">PVC Recovery</text>
+<text x="0" y="110" fill="#bef264" font-size="13">Toll Granulation</text>
+<text x="0" y="135" fill="#bef264" font-size="13">Calibrated Flakes</text>
+<text x="0" y="160" fill="#bef264" font-size="13">Landfill Audit</text>
+</g>
+<g transform="translate(760, 60)">
+<text x="0" y="25" fill="#ffffff" font-size="13" class="bold font-mono uppercase">Materials</text>
+<text x="0" y="60" fill="#bef264" font-size="13">Window Profiles (PVC)</text>
+<text x="0" y="85" fill="#bef264" font-size="13">Vinyl Siding Off-Cuts</text>
+<text x="0" y="110" fill="#bef264" font-size="13">Rigid Conduit & Piping</text>
+<text x="0" y="135" fill="#bef264" font-size="13">White Regrind 3/8"</text>
+<text x="0" y="160" fill="#bef264" font-size="13">Mixed Color Granules</text>
+</g>
+<g transform="translate(1040, 60)">
+<text x="0" y="25" fill="#ffffff" font-size="13" class="bold font-mono uppercase">Receiving Docks</text>
+<text x="0" y="60" fill="#bef264" font-size="13">905 Avenue Munck, Laval, QC</text>
+<text x="0" y="85" fill="#bef264" font-size="13">Mon - Fri: 7:00 AM - 5:00 PM EST</text>
+<text x="0" y="110" fill="#ffcb0a" font-size="13" class="bold">+1 (450) 663-4200</text>
+<text x="0" y="135" fill="#bef264" font-size="13">info@montrealpolymers.com</text>
+</g>
+<line x1="80" y1="360" x2="1360" y2="360" stroke="#273e0b" stroke-width="1" />
+<text x="80" y="395" fill="#bef264" font-size="12">© 2026 Montreal Polymers Inc. All Rights Reserved. Pure Circular Plastics.</text>
+<text x="1360" y="395" text-anchor="end" fill="#bef264" font-size="12">Privacy &amp; Terms  •  Back to Top ↑</text>
+</g>
+</svg>

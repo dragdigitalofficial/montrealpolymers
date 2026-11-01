@@ -1,0 +1,5 @@
+.agents/
+skills-lock.json
+*.py
+*.bak
+.DS_Store
