@@ -1,0 +1,41 @@
+{
+  "version": "0.4",
+  "title": "Montreal Polymers Footer (Entire Site)",
+  "type": "footer",
+  "content": [
+    {
+      "id": "d519b9e",
+      "elType": "section",
+      "isInner": false,
+      "isExternal": false,
+      "settings": {},
+      "defaultEditSettings": {},
+      "elements": [
+        {
+          "id": "2e76af8",
+          "elType": "column",
+          "isInner": false,
+          "isExternal": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "defaultEditSettings": {},
+          "elements": [
+            {
+              "id": "583a518",
+              "elType": "widget",
+              "isInner": false,
+              "isExternal": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "\n<footer class=\"bg-slate-900 text-slate-400 text-sm border-t border-slate-800\">\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12\">\n        <div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800\">\n            <!-- Brand Column -->\n            <div class=\"lg:col-span-2 space-y-4\">\n                <a href=\"/\" class=\"inline-block\">\n                    <img src=\"/wp-content/themes/montreal-polymers-theme/assets/images/logo yellow.svg\" alt=\"Montreal Polymers\" class=\"h-10 w-auto object-contain\" onerror=\"this.src='/wp-content/themes/montreal-polymers-theme/assets/images/logo-yellow.svg'\">\n                </a>\n                <p class=\"text-xs leading-relaxed text-slate-400 max-w-sm\">\n                    Montreal Polymers is Eastern Canada's high-purity industrial polymer recovery desk. We replace toxic chemical washing with certified cold mechanical granulation \u2014 turning factory scrap into high-yield circular materials.\n                </p>\n                <div class=\"flex items-center gap-3 pt-2 text-xs font-mono text-gold-400\">\n                    <span class=\"px-2 py-1 rounded bg-slate-800 border border-slate-700\">ISO 9001:2015</span>\n                    <span class=\"px-2 py-1 rounded bg-slate-800 border border-slate-700\">Recyc-Qu\u00e9bec Aligned</span>\n                    <span class=\"px-2 py-1 rounded bg-slate-800 border border-slate-700\">Zero Solvent Facility</span>\n                </div>\n            </div>\n\n            <!-- Material Streams -->\n            <div class=\"space-y-3\">\n                <h4 class=\"text-xs font-mono font-bold uppercase tracking-wider text-white\">Polymer Streams</h4>\n                <ul class=\"space-y-2 text-xs\">\n                    <li><a href=\"#pvc\" class=\"hover:text-gold-400 transition-colors\">Rigid PVC Regrind (White Profile)</a></li>\n                    <li><a href=\"#pvc\" class=\"hover:text-gold-400 transition-colors\">Post-Industrial Pipe Regrind</a></li>\n                    <li><a href=\"#services\" class=\"hover:text-gold-400 transition-colors\">HDPE Blow Molding Flakes</a></li>\n                    <li><a href=\"#services\" class=\"hover:text-gold-400 transition-colors\">PP Injection Purge Lumps</a></li>\n                    <li><a href=\"#services\" class=\"hover:text-gold-400 transition-colors\">Technical Engineering Resins</a></li>\n                </ul>\n            </div>\n\n            <!-- Plant & Logistics -->\n            <div class=\"space-y-3\">\n                <h4 class=\"text-xs font-mono font-bold uppercase tracking-wider text-white\">Plant Logistics</h4>\n                <ul class=\"space-y-2 text-xs\">\n                    <li><span class=\"text-slate-300\">Montreal LaSalle Rail Siding</span></li>\n                    <li><span class=\"text-slate-300\">Dry Blade Shredding (0% Solvents)</span></li>\n                    <li><span class=\"text-slate-300\">Optical De-dusting & Sorting</span></li>\n                    <li><span class=\"text-slate-300\">Certified Weigh Scale & COA Lab</span></li>\n                    <li><span class=\"text-slate-300\">Bale, Gaylord & Super Sack Intake</span></li>\n                </ul>\n            </div>\n\n            <!-- Operating Hours & Contact -->\n            <div class=\"space-y-3\">\n                <h4 class=\"text-xs font-mono font-bold uppercase tracking-wider text-white\">Dock Operations</h4>\n                <div class=\"text-xs space-y-2 text-slate-400\">\n                    <p><strong class=\"text-white\">Receiving:</strong> Mon - Fri 06:30 - 17:00 EST</p>\n                    <p><strong class=\"text-white\">Phone:</strong> +1 (514) 878-3200</p>\n                    <p><strong class=\"text-white\">WhatsApp:</strong> Direct Logistics Desk</p>\n                    <p><strong class=\"text-white\">Emergency Manifests:</strong> logistics@montrealpolymers.com</p>\n                </div>\n            </div>\n        </div>\n\n        <!-- Sub-footer -->\n        <div class=\"pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400\">\n            <div>\n                \u00a9 2026 Montreal Polymers Inc. All rights reserved. Made in Quebec, Canada.\n            </div>\n            <div class=\"flex items-center gap-6\">\n                <a href=\"#home\" class=\"hover:text-gold-400 transition-colors\">Back to Top \u2191</a>\n            </div>\n        </div>\n    </div>\n</footer>\n"
+              },
+              "defaultEditSettings": {},
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

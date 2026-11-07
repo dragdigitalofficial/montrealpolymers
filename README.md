@@ -1,40 +1,47 @@
-# Montreal Polymers Inc. — Modern WordPress One-Page UI/UX Prototypes
+# Montreal Polymers Inc. — Modern WordPress Theme & Elementor System
 
 Live Client Preview Links:
-- ⚡ **Industrial Gold / Yellow Variant (NEW)**: **[https://dragdigitalofficial.github.io/montrealpolymers/yellow.html](https://dragdigitalofficial.github.io/montrealpolymers/yellow.html)**
+- ⚡ **Industrial Gold / Yellow Variant**: **[https://dragdigitalofficial.github.io/montrealpolymers/yellow.html](https://dragdigitalofficial.github.io/montrealpolymers/yellow.html)**
 - 🌿 **Forest Green Variant**: **[https://dragdigitalofficial.github.io/montrealpolymers/](https://dragdigitalofficial.github.io/montrealpolymers/)**
 
 ---
 
-## About the Project
-World-class, high-converting WordPress one-page website prototypes designed for **Montreal Polymers Inc.**, Quebec's leading chemical-free industrial plastic and PVC recycling company. Both variants feature instant interactive theme toggling in the bottom right corner.
+## 📦 Turnkey WordPress Theme & Elementor Deliverables
 
-### Design Variants:
-1. **⚡ Industrial Gold / Yellow Variant (`yellow.html`)**:
-   - Built around the signature logo yellow (`#ffcb0a`), warm amber accents (`#f59e0b`, `#fbbf24`), industrial slate/charcoal (`#0f172a`, `#1e293b`), and pure white backgrounds.
-   - **Green Top Utility Bar**: Preserves the forest green utility header (`#142306`) with Montreal address, direct phone, WhatsApp, and Recyc-Québec badges.
-   - **Split 50/50 Image & Content Sections**: High-resolution editorial photography (cold mechanical granulation machinery, organized receiving docks, pure regrind flakes) paired with data-driven copy.
-   - **Scroll-Triggered Appearing Animations**: Lightweight, fluid CSS & IntersectionObserver text and card reveal animations that smoothly slide up as users scroll.
-   - **3D Interactive WebGL Canvas**: Rotating geodesic lattice in golden amber with a faceted inner core and floating recycled polymer flakes.
-
-2. **🌿 Forest Green & Warm Leaf Variant (`index.html`)**:
-   - Fresh organic lime-leaf tones (`#65a30d`, `#84cc16`, `#a3e635`) paired with brand gold (`#ffcb0a`) and deep warm forest (`#142306`).
-   - Chemical-free mechanical circularity with interactive Three.js 3D emerald/lime polymer crystal node.
-
-### Core Architecture & Features:
-- **100% Chemical-Free & Zero-Solvent Facility**: Direct contrast against toxic chemical acid washing and hazardous incinerators.
-- **Interactive Landfill & Revenue Calculator**: Dynamic slider calculating diverted landfill cubic meters and monthly scrap buyback revenue ($CAD).
-- **Dual Conversion Funnel**: Request Material Quote (Procurement Buyers) vs. Sell Factory Scrap with Photos (Factory Owners).
-- **Industrial Benchmarks**: Structured according to Envato Elements top industrial WordPress themes (*Wastex*, *Garbox*, *Trendustry*, *Dispossa*).
-- **Full Responsiveness**: Complete desktop, tablet, and mobile drawer navigation.
+| Deliverable | Location | Description |
+| :--- | :--- | :--- |
+| **WordPress Theme Zip** | [`montreal-polymers-theme.zip`](file:///c:/Users/N4Bx/Desktop/montrealpolymers/montreal-polymers-theme.zip) | Ready-to-upload WordPress theme (`Appearance > Themes > Add New > Upload Theme`). |
+| **Elementor Templates Zip** | [`elementor-templates.zip`](file:///c:/Users/N4Bx/Desktop/montrealpolymers/elementor-templates.zip) | Exported Elementor JSON templates (`Templates > Saved Templates > Import`). |
+| **Theme Source** | [`montreal-polymers-theme/`](file:///c:/Users/N4Bx/Desktop/montrealpolymers/montreal-polymers-theme) | Complete theme directory with Theme Builder hooks, widgets, and shortcodes. |
+| **Documentation & Guide** | [`ELEMENTOR_GUIDE.md`](file:///c:/Users/N4Bx/Desktop/montrealpolymers/ELEMENTOR_GUIDE.md) | Comprehensive step-by-step setup guide for both Elementor Free and Elementor Pro. |
 
 ---
 
-## File Structure
+## ⚡ 100% Elementor Manageability
+
+1. **Header & Footer Managed Across Entire Site**:
+   - Registered with official Elementor Theme Builder (`elementor/theme/register_locations`) and `header-footer-elementor` hooks.
+   - Assignable via Elementor Pro Theme Builder or free Elementor Header & Footer Builder to **"Entire Site"** with 1 click.
+   - Industrial top bar strictly displays Montreal address, direct phone, and WhatsApp desk.
+
+2. **Every Section 100% Manageable via Elementor**:
+   - All 10 homepage sections (Hero 3D Canvas, 4-Stat Metrics Banner, Chemical-Free Philosophy, Core Services Grid, Factory Logistics, PVC Regrind Deep-Dive, Lab Testing, 4-Step Process, Landfill ROI Calculator, and Dual Conversion Funnel) are available as modular Elementor sections and native widgets.
+
+3. **Shortcodes Included**:
+   - `[montreal_3d_hero]` — Three.js 3D WebGL polymer lattice canvas.
+   - `[montreal_stat_banner]` — Floating 4-stat industrial metrics banner.
+   - `[montreal_landfill_calculator]` — Client-side dynamic Landfill & Revenue ROI Calculator.
+   - `[montreal_contact_form]` — Dual-tab RFQ & Factory Scrap Manifest submission funnel with direct WhatsApp integration.
+
+---
+
+## 📂 Repository File Structure
+- `montreal-polymers-theme.zip` — Compressed theme ready for WordPress upload
+- `elementor-templates.zip` — Compressed Elementor templates
+- `montreal-polymers-theme/` — Uncompressed theme files (PHP, JS, CSS, SVG)
+- `elementor-templates/` — JSON templates (`header-template.json`, `footer-template.json`, `homepage-template.json`)
+- `ELEMENTOR_GUIDE.md` — Complete Elementor installation and editing manual
 - `yellow.html` — Industrial Gold & Yellow one-page prototype with split image sections & scroll animations
 - `index.html` — Forest Green one-page prototype
-- `logot.svg` — Montreal Polymers brand vector logo (Yellowish-green & gold)
-- `logot-yellow.svg` — Montreal Polymers brand vector logo (Industrial Gold & Slate)
-- `logot-yellow-light.svg` — Montreal Polymers brand vector logo (Pure White & Industrial Gold for dark footer)
-- `montreal_polymers_design.svg` — 1440 × 5600 px vector artboard (drag-and-drop into Figma)
-- `figma_design_generator.js` — Figma console automation script to generate native Auto-Layout frames
+- `logo yellow.svg` / `logo-yellow.svg` — Official Montreal Polymers Industrial Yellow SVG logo
+- `logot-yellow-light.svg` — Montreal Polymers white & gold logo for dark footer

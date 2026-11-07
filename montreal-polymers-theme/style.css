@@ -1,0 +1,114 @@
+/*
+Theme Name: Montreal Polymers
+Theme URI: https://dragdigitalofficial.github.io/montrealpolymers/yellow.html
+Author: Montreal Polymers Inc.
+Author URI: https://montrealpolymers.com
+Description: High-performance industrial WordPress theme for Montreal Polymers Inc. Chemical-free mechanical plastic and PVC recycling. 100% compatible with Elementor and Elementor Pro Theme Builder.
+Version: 1.0.0
+Requires at least: 5.8
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: montreal-polymers
+Tags: elementor, custom-header, custom-menu, full-width-template, theme-options, translation-ready
+*/
+
+:root {
+    --color-gold-50: #fffbeb;
+    --color-gold-100: #fef3c7;
+    --color-gold-200: #fde68a;
+    --color-gold-300: #fcd34d;
+    --color-gold-400: #fbbf24;
+    --color-gold-500: #ffcb0a; /* Signature Logo Brand Yellow */
+    --color-gold-600: #d97706;
+    --color-gold-700: #b45309;
+    --color-slate-800: #1e293b;
+    --color-slate-850: #151f32;
+    --color-slate-900: #0f172a;
+    --color-slate-950: #090e17;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-display: 'Space Grotesk', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font-sans);
+    color: var(--color-slate-900);
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+/* Typography Utility */
+.font-display {
+    font-family: var(--font-display);
+}
+
+.font-sans {
+    font-family: var(--font-sans);
+}
+
+/* 3D WebGL Canvas Container */
+#hero-3d-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* Card Hover Animations */
+.wp-card {
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.wp-card:hover {
+    transform: translateY(-6px);
+}
+
+/* Custom Range Slider (Industrial Gold) */
+input[type="range"] {
+    accent-color: var(--color-gold-500);
+}
+
+/* Text & Content Scroll Reveal Animations */
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1), transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+}
+.reveal-on-scroll.is-revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal-on-scroll {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+}
+
+/* Elementor Editor Helpers */
+.elementor-editor-active #hero-3d-canvas {
+    min-height: 450px;
+    position: relative;
+}
