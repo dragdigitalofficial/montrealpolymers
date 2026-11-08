@@ -1,6 +1,7 @@
 <?php
 /**
  * The template for displaying all single pages
+ * Montreal Polymers Theme - 100% Elementor Ready
  */
 
 get_header();
@@ -11,8 +12,22 @@ get_header();
     while ( have_posts() ) :
         the_post();
 
-        // Check if page is built with Elementor
-        if ( function_exists( 'elementor_load_plugin_textdomain' ) && \Elementor\Plugin::$instance->documents->get( get_the_ID() ) && \Elementor\Plugin::$instance->documents->get( get_the_ID() )->is_built_with_elementor() ) {
+        // If Elementor is active or document is built with Elementor, output the_content directly
+        $is_elementor = false;
+        if ( did_action( 'elementor/loaded' ) ) {
+            $doc = \Elementor\Plugin::$instance->documents->get( get_the_ID() );
+            if ( $doc && $doc->is_built_with_elementor() ) {
+                $is_elementor = true;
+            }
+            if ( isset( \Elementor\Plugin::$instance->preview ) && \Elementor\Plugin::$instance->preview->is_preview_mode() ) {
+                $is_elementor = true;
+            }
+            if ( isset( \Elementor\Plugin::$instance->editor ) && \Elementor\Plugin::$instance->editor->is_edit_mode() ) {
+                $is_elementor = true;
+            }
+        }
+
+        if ( $is_elementor ) {
             the_content();
         } else {
             ?>
