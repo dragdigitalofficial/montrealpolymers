@@ -11,9 +11,10 @@ This turnkey package transforms the Montreal Polymers Industrial Yellow design (
 | **`montreal-polymers-theme.zip`** | The complete WordPress theme ready to upload via `Appearance > Themes > Upload Theme`. |
 | **`montreal-polymers-theme/`** | The uncompressed theme source code (PHP, JS, CSS, SVG assets). |
 | **`elementor-templates.zip`** | Exported Elementor JSON templates for instant 1-click import. |
-| **`elementor-templates/header-template.json`** | Elementor Header Template (Industrial Top Bar + Sticky Navigation). |
-| **`elementor-templates/footer-template.json`** | Elementor Footer Template (5-Column Industrial Footer + Dock Hours). |
-| **`elementor-templates/homepage-template.json`** | Elementor Homepage Template containing all 10 modular sections. |
+| **`elementor-templates/header-template.json`** | Elementor Header Template (Section type - compatible with Free & Pro). |
+| **`elementor-templates/footer-template.json`** | Elementor Footer Template (Section type - compatible with Free & Pro). |
+| **`elementor-templates/homepage-template.json`** | Elementor Homepage Page Template containing all 10 modular sections. |
+| **`elementor-templates/homepage-section-template.json`** | Elementor Homepage Section Template (alternative for direct section insertion). |
 
 ---
 

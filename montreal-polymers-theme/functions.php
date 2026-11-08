@@ -189,3 +189,10 @@ if ( did_action( 'elementor/loaded' ) ) {
         require_once MONTREAL_DIR . '/inc/elementor-widgets.php';
     } );
 }
+
+/**
+ * 6. Elementor Template Library Compatibility
+ * Allows custom template types (header, footer, section, page) to import cleanly in Free and Pro Elementor
+ */
+add_filter( 'elementor/template_library/sources/local/is_valid_template_type', '__return_true', 99 );
+

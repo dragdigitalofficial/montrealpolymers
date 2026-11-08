@@ -1,7 +1,7 @@
 {
   "version": "0.4",
-  "title": "Montreal Polymers Footer (Entire Site)",
-  "type": "footer",
+  "title": "Montreal Polymers Footer (Section)",
+  "type": "section",
   "content": [
     {
       "id": "d519b9e",
@@ -37,5 +37,6 @@
         }
       ]
     }
-  ]
+  ],
+  "page_settings": {}
 }
