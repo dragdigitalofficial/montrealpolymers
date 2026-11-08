@@ -1,398 +1,3679 @@
 {
   "version": "0.4",
-  "title": "Montreal Polymers Homepage (Section Template)",
-  "type": "section",
+  "title": "Montreal Polymers Homepage (Pure Elementor)",
+  "type": "page",
   "content": [
     {
-      "id": "1b94405",
+      "id": "37d4563",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 3: HERO BANNER"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#0f172a",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "120",
+          "left": "24",
+          "isLinked": false
+        },
+        "_section_id": "home"
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "9e64449",
+          "id": "7fc1dce",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 60,
+            "_inline_size": 60,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "30",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": false
+            }
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "149a594",
+              "id": "423c67f",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section id=\"home\" class=\"relative bg-slate-900 text-white pt-16 pb-28 lg:pt-24 lg:pb-36 overflow-hidden\">\n    \n    <!-- 3D Interactive WebGL Canvas -->\n    <div id=\"hero-3d-canvas\"></div>\n\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20\">\n        <div class=\"grid grid-cols-1 lg:grid-cols-12 gap-12 items-center\">\n            \n            <!-- Left Content -->\n            <div class=\"lg:col-span-7 space-y-6\">\n                \n                <!-- Top Pill Badge -->\n                <div class=\"inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/90 border border-slate-700 text-xs font-mono font-semibold text-gold-400\">\n                    <span class=\"w-2 h-2 rounded-full bg-gold-500 animate-pulse\"></span>\n                    <span>Zero Chemical Solvents \u2022 100% Cold Mechanical Recovery</span>\n                </div>\n\n                <!-- Main H1 Headline -->\n                <h1 class=\"text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight font-display leading-[1.12]\">\n                    Saving Earth from Chemicals. <br>\n                    <span class=\"text-gold-500\">Zero Plastic Waste</span> to Landfills.\n                </h1>\n\n                <!-- Supporting Text -->\n                <p class=\"text-base sm:text-lg text-slate-300 leading-relaxed font-light max-w-2xl\">\n                    Montreal Polymers replaces toxic chemical washing machines and hazardous incinerators with <strong>pure cold mechanical granulation</strong> \u2014 converting industrial PVC off-cuts and factory scrap into certified circular raw materials.\n                </p>\n\n                <!-- Dual Action CTAs -->\n                <div class=\"flex flex-wrap items-center gap-4 pt-2\">\n                    <a href=\"#contact\" class=\"px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-slate-900 bg-gold-500 hover:bg-gold-400 transition-all shadow-gold-glow flex items-center gap-3\">\n                        <i data-lucide=\"truck\" class=\"w-4 h-4\"></i>\n                        <span>Schedule Scrap Pickup</span>\n                    </a>\n                    <a href=\"#calculator\" class=\"px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-all flex items-center gap-2\">\n                        <i data-lucide=\"calculator\" class=\"w-4 h-4 text-gold-500\"></i>\n                        <span>Landfill ROI Calculator</span>\n                    </a>\n                </div>\n\n                <!-- Micro Trust Indicators -->\n                <div class=\"pt-6 border-t border-slate-800 flex flex-wrap items-center gap-6 text-xs text-slate-400 font-medium\">\n                    <div class=\"flex items-center gap-2\">\n                        <i data-lucide=\"check-circle-2\" class=\"w-4 h-4 text-gold-500\"></i>\n                        <span>ISO & Recyc-Qu\u00e9bec Aligned</span>\n                    </div>\n                    <div class=\"flex items-center gap-2\">\n                        <i data-lucide=\"check-circle-2\" class=\"w-4 h-4 text-gold-500\"></i>\n                        <span>0L Hazardous Wastewater</span>\n                    </div>\n                    <div class=\"flex items-center gap-2\">\n                        <i data-lucide=\"check-circle-2\" class=\"w-4 h-4 text-gold-500\"></i>\n                        <span>COA Lab Certificate with Every Lot</span>\n                    </div>\n                </div>\n\n            </div>\n\n            <!-- Right Specimen Card for Mobile & Live Availability -->\n            <div class=\"lg:col-span-5 relative z-20 flex justify-end\">\n                <div class=\"w-full max-w-md bg-slate-800/80 backdrop-blur-md rounded-2xl p-6 border border-slate-700 shadow-2xl space-y-4\">\n                    <div class=\"flex items-center justify-between pb-3 border-b border-slate-700\">\n                        <div class=\"flex items-center gap-2\">\n                            <span class=\"w-2.5 h-2.5 rounded-full bg-gold-500\"></span>\n                            <span class=\"text-xs font-mono font-bold uppercase text-white tracking-wider\">Trading Desk Availability</span>\n                        </div>\n                        <span class=\"text-[10px] font-mono text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded border border-gold-800\">LIVE FEED</span>\n                    </div>\n                    <div class=\"space-y-3 text-xs\">\n                        <div class=\"p-3 rounded-xl bg-slate-900/80 border border-slate-700/60 flex justify-between items-center\">\n                            <div>\n                                <div class=\"font-bold text-white\">Rigid PVC Regrind (White Profile)</div>\n                                <div class=\"text-[11px] text-slate-400\">Post-industrial window scrap \u2022 Bulk bags</div>\n                            </div>\n                            <span class=\"font-mono font-bold text-gold-400\">44,000 lbs</span>\n                        </div>\n                        <div class=\"p-3 rounded-xl bg-slate-900/80 border border-slate-700/60 flex justify-between items-center\">\n                            <div>\n                                <div class=\"font-bold text-white\">HDPE Blow Molding Bales</div>\n                                <div class=\"text-[11px] text-slate-400\">Uncontaminated factory trimmings</div>\n                            </div>\n                            <span class=\"font-mono font-bold text-gold-400\">88,000 lbs</span>\n                        </div>\n                        <div class=\"p-3 rounded-xl bg-slate-900/80 border border-slate-700/60 flex justify-between items-center\">\n                            <div>\n                                <div class=\"font-bold text-white\">PP Extrusion Grade Lumps</div>\n                                <div class=\"text-[11px] text-slate-400\">High MFI purge scrap \u2022 Laval dock</div>\n                            </div>\n                            <span class=\"font-mono font-bold text-gold-400\">22,000 lbs</span>\n                        </div>\n                    </div>\n                    <a href=\"#products\" class=\"block text-center py-2.5 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-900 font-bold text-xs uppercase tracking-wider transition-colors shadow-sm\">\n                        Inspect Complete Specifications\n                    </a>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
-                "_title": "Section 3: HERO BANNER"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "title": "RELIABLE CANADIAN POLYMER RECYCLING & TOLL REGRIND",
+                "header_size": "span",
+                "align": "left",
+                "title_color": "#ffcb0a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                }
+              }
+            },
+            {
+              "id": "850a9bc",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Saving Earth from Chemicals.<br>Zero Plastic Waste to Landfills.",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                }
+              }
+            },
+            {
+              "id": "ada411a",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Empowering North American manufacturers with zero-landfill polymer toll processing, certified clean regrind streams, and reliable post-industrial scrap purchasing. 100% mechanical recovery \u2014 zero hazardous chemicals.</p>",
+                "text_color": "#cbd5e1",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "66ee09a",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "2f338c5",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Request Toll Processing Quote",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "size": "md",
+                "button_text_color": "#0f172a",
+                "background_color": "#ffcb0a",
+                "hover_color": "#0f172a",
+                "button_background_hover_color": "#fde047",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "28",
+                  "bottom": "16",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "2ddfc3d",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 10
+                }
+              }
+            },
+            {
+              "id": "6bb632d",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Explore Polymer Materials",
+                "link": {
+                  "url": "#products",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "size": "md",
+                "button_text_color": "#ffffff",
+                "background_color": "transparent",
+                "hover_color": "#ffcb0a",
+                "button_background_hover_color": "#1e293b",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "28",
+                  "bottom": "16",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "700",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#475569"
+              }
+            }
+          ]
+        },
+        {
+          "id": "9924111",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 40,
+            "_inline_size": 40,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "f67b0da",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 20,
+                  "blur": 40,
+                  "spread": -8,
+                  "color": "rgba(15, 23, 42, 0.15)"
+                }
+              }
+            },
+            {
+              "id": "646980b",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "3487f16",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-leaf",
+                  "library": "fa-solid"
+                },
+                "title_text": "100% Mechanical Clean Processing",
+                "description_text": "Zero hazardous solvents. Preserves polymer chain strength and resin purity.",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#ffffff",
+                "description_color": "#94a3b8",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "7750848",
+      "id": "98bd324",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 4: FLOATING 4-STAT INDUSTRIAL METRICS BANNER"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "transparent",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "24",
+          "bottom": "30",
+          "left": "24",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "-45",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "z_index": 30
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "9494766",
+          "id": "19bd748",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "20",
+              "bottom": "28",
+              "left": "20",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "3ab47b3",
+              "id": "357a010",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "counter",
               "settings": {
-                "html": "<div class=\"relative z-30 -mt-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n    <?php echo do_shortcode( '[montreal_stat_banner]' ); ?>\n</div>",
-                "_title": "Section 4: FLOATING 4-STAT INDUSTRIAL METRICS BANNER"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "starting_number": 0,
+                "ending_number": 50,
+                "suffix": "M+ lbs",
+                "title": "Scrap Diverted from Landfills",
+                "number_color": "#d97706",
+                "title_color": "#0f172a",
+                "typography_number_typography": "custom",
+                "typography_number_font_family": "Space Grotesk",
+                "typography_number_font_weight": "800",
+                "typography_number_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "2a3dcde",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Closed-loop mechanical toll processing.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "c86ef09",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "20",
+              "bottom": "28",
+              "left": "20",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "3901222",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 99,
+                "suffix": ".8%",
+                "title": "Polymer Purity Tolerance",
+                "number_color": "#d97706",
+                "title_color": "#0f172a",
+                "typography_number_typography": "custom",
+                "typography_number_font_family": "Space Grotesk",
+                "typography_number_font_weight": "800",
+                "typography_number_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "4a23fd2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Optical & magnetic separation quality.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "f470ada",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "20",
+              "bottom": "28",
+              "left": "20",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "0b23bc3",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 48,
+                "suffix": " Hours",
+                "title": "Settlement Turnaround",
+                "number_color": "#d97706",
+                "title_color": "#0f172a",
+                "typography_number_typography": "custom",
+                "typography_number_font_family": "Space Grotesk",
+                "typography_number_font_weight": "800",
+                "typography_number_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "06d19a2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Scale tickets & swift wire payment.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "32c7f03",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "20",
+              "bottom": "28",
+              "left": "20",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "9fcadad",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 100,
+                "suffix": "%",
+                "title": "Zero Chemical Guarantee",
+                "number_color": "#d97706",
+                "title_color": "#0f172a",
+                "typography_number_typography": "custom",
+                "typography_number_font_family": "Space Grotesk",
+                "typography_number_font_weight": "800",
+                "typography_number_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "7f3614f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Zero acid washes, zero toxic effluent.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "16ce75c",
+      "id": "080d09d",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 5: SPLIT SECTION 1: THE CHEMICAL-FREE PHILOSOPHY"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "100",
+          "left": "24",
+          "isLinked": false
+        },
+        "_section_id": "philosophy"
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "3887f8b",
+          "id": "a808ccb",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 50,
+            "_inline_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "30",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": false
+            }
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "64d8c80",
+              "id": "8bcadd4",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section class=\"py-24 bg-white overflow-hidden\">\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n        <div class=\"grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center\">\n            \n            <!-- Left Side: Real Industrial Machinery Imagery -->\n            <div class=\"lg:col-span-6 relative reveal-on-scroll\">\n                <div class=\"relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200\">\n                    <img src=\"https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80\" alt=\"Industrial Cold Mechanical Granulation\" class=\"w-full h-[480px] object-cover hover:scale-105 transition-transform duration-700\">\n                    <div class=\"absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent\"></div>\n                    \n                    <!-- Floating Spec Badge on Image -->\n                    <div class=\"absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/95 backdrop-blur-md border border-slate-200 shadow-xl flex items-center justify-between\">\n                        <div class=\"flex items-center gap-3\">\n                            <div class=\"w-10 h-10 rounded-xl bg-gold-500/20 text-gold-700 flex items-center justify-center font-bold\">\n                                <i data-lucide=\"cpu\" class=\"w-5 h-5 text-gold-600\"></i>\n                            </div>\n                            <div>\n                                <div class=\"text-xs font-bold text-slate-900\">Cold Mechanical Granulation</div>\n                                <div class=\"text-[11px] text-slate-500\">Zero Chemical Solvents \u2022 Preserved Molecular Weight</div>\n                            </div>\n                        </div>\n                        <span class=\"text-xs font-mono font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200\">0L Effluent</span>\n                    </div>\n                </div>\n\n                <!-- Decorative Background Element -->\n                <div class=\"absolute -top-6 -left-6 w-32 h-32 bg-gold-500/10 rounded-full blur-2xl -z-10\"></div>\n            </div>\n\n            <!-- Right Side: Text & Editorial Case -->\n            <div class=\"lg:col-span-6 space-y-6 reveal-on-scroll delay-100\">\n                <div class=\"inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-100 text-gold-800 text-xs font-mono font-semibold\">\n                    <i data-lucide=\"shield-alert\" class=\"w-3.5 h-3.5\"></i>\n                    <span>OUR CORE ENVIRONMENTAL DIFFERENCE</span>\n                </div>\n\n                <h2 class=\"text-3xl sm:text-4xl font-extrabold text-slate-900 font-display tracking-tight leading-tight\">\n                    Why We Never Use Chemical Machines or Acid Washes.\n                </h2>\n\n                <p class=\"text-slate-600 leading-relaxed text-base font-light\">\n                    Many recycling companies rely on aggressive chemical baths, chlorinated solvents, and high-heat decomposition that degrade polymer chains and discharge toxic wastewater into Canadian waterways.\n                </p>\n\n                <p class=\"text-slate-600 leading-relaxed text-base font-light\">\n                    Montreal Polymers pioneered a <strong>100% cold mechanical circular process</strong>. We use heavy rotary granulators, high-gauss neodymium magnetic separators, and air-density gravity tables. The result is pure, re-usable polymer regrind that saves thousands of tons from landfills without creating a single drop of hazardous chemical byproduct.\n                </p>\n\n                <!-- Feature Breakdown Grid -->\n                <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2\">\n                    <div class=\"p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1\">\n                        <div class=\"flex items-center gap-2 text-slate-900 font-bold text-sm\">\n                            <i data-lucide=\"check\" class=\"w-4 h-4 text-gold-600\"></i>\n                            <span>Zero Water Runoff</span>\n                        </div>\n                        <p class=\"text-xs text-slate-500\">Clean, dry physical separation prevents soil and municipal water contamination.</p>\n                    </div>\n                    <div class=\"p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1\">\n                        <div class=\"flex items-center gap-2 text-slate-900 font-bold text-sm\">\n                            <i data-lucide=\"check\" class=\"w-4 h-4 text-gold-600\"></i>\n                            <span>Preserved Intrinsic Viscosity</span>\n                        </div>\n                        <p class=\"text-xs text-slate-500\">Cold processing preserves the virgin mechanical strength of PVC & HDPE polymers.</p>\n                    </div>\n                </div>\n\n                <div class=\"pt-2\">\n                    <a href=\"#services\" class=\"inline-flex items-center gap-2 text-sm font-bold text-slate-900 hover:text-gold-600 transition-colors\">\n                        <span>Explore Our Processing Capabilities</span>\n                        <i data-lucide=\"arrow-right\" class=\"w-4 h-4 text-gold-500\"></i>\n                    </a>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
-                "_title": "Section 5: SPLIT SECTION 1: THE CHEMICAL-FREE PHILOSOPHY"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "title": "100% MECHANICAL PROCESS",
+                "header_size": "span",
+                "align": "left",
+                "title_color": "#d97706",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                }
+              }
+            },
+            {
+              "id": "619956f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Why We Never Use Chemical Machines or Acid Washes.",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "3ce67a2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Traditional chemical polymer recycling washes materials in caustic acids and organic solvents, introducing hazardous liquid effluent and degrading the polymer chain length. At Montreal Polymers, we refuse toxic shortcuts. Our facility uses multi-stage high-torque shredding, progressive heavy granulators, and multi-deck aspirators to mechanically clean, separate, and regrind industrial plastics \u2014 producing virgin-grade performance with zero toxic footprint.</p>",
+                "text_color": "#475569",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "a33ebf6",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-shield-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Zero Chemical Degradation",
+                "description_text": "Preserves melt flow index (MFI), tensile strength, and impact resistance for flawless remolding.",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "437b12c",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-tint-slash",
+                  "library": "fa-solid"
+                },
+                "title_text": "Zero Hazardous Liquid Effluent",
+                "description_text": "No chemical sludge or caustic rinse solutions discharged into Montreal waterways.",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "2d052e8",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-award",
+                  "library": "fa-solid"
+                },
+                "title_text": "Clean Tech Certification",
+                "description_text": "Compliant with environmental sustainability audits and strict manufacturer QA tolerances.",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "cadcfdd",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "49ff5fa",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1610891015188-5369212db097?auto=format&fit=crop&w=1000&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 20,
+                  "blur": 40,
+                  "spread": -8,
+                  "color": "rgba(15, 23, 42, 0.15)"
+                }
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "c65b272",
+      "id": "082f6a9",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 6: CORE SERVICES GRID"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "30",
+          "left": "24",
+          "isLinked": false
+        },
+        "_section_id": "services"
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "69535fc",
+          "id": "faddf27",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 100,
+            "_inline_size": 100
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "918661b",
+              "id": "9c4ce61",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section id=\"services\" class=\"py-24 bg-slate-50 border-y border-slate-200\">\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16\">\n        \n        <!-- Section Header -->\n        <div class=\"max-w-3xl mx-auto text-center space-y-4 reveal-on-scroll\">\n            <div class=\"inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-100 text-gold-800 text-xs font-mono font-semibold\">\n                <span>SOLUTIONS FOR BUYERS & SELLERS</span>\n            </div>\n            <h2 class=\"text-3xl sm:text-4xl font-extrabold text-slate-900 font-display tracking-tight\">\n                End-to-End Industrial Polymer Recovery\n            </h2>\n            <p class=\"text-slate-600 text-base font-light\">\n                From factory dock drop trailers to certified extrusion-grade regrind, we bridge the gap between scrap producers and high-precision manufacturers.\n            </p>\n        </div>\n\n        <!-- 6 Services Grid -->\n        <div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">\n            \n            <!-- Service 1: Scrap Purchasing -->\n            <div class=\"wp-card bg-white rounded-2xl p-8 border border-slate-200 shadow-soft space-y-4 relative overflow-hidden group reveal-on-scroll delay-100\">\n                <div class=\"w-12 h-12 rounded-xl bg-gold-500/10 text-gold-600 flex items-center justify-center font-bold group-hover:bg-gold-500 group-hover:text-slate-900 transition-colors\">\n                    <i data-lucide=\"scale\" class=\"w-6 h-6\"></i>\n                </div>\n                <h3 class=\"text-xl font-bold text-slate-900\">Post-Industrial Scrap Purchasing</h3>\n                <p class=\"text-sm text-slate-600 leading-relaxed font-light\">\n                    We purchase clean bales, purged lumps, start-up scrap, and production off-cuts from plastics converters with certified scale receipts and rapid payout.\n                </p>\n                <ul class=\"text-xs text-slate-500 space-y-1.5 pt-2 border-t border-slate-100\">\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> Drop trailer service in QC & ON</li>\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> Full truckloads (FTL) & LTL</li>\n                </ul>\n            </div>\n\n            <!-- Service 2: Cold Granulation -->\n            <div class=\"wp-card bg-white rounded-2xl p-8 border border-slate-200 shadow-soft space-y-4 relative overflow-hidden group reveal-on-scroll delay-200\">\n                <div class=\"w-12 h-12 rounded-xl bg-gold-500/10 text-gold-600 flex items-center justify-center font-bold group-hover:bg-gold-500 group-hover:text-slate-900 transition-colors\">\n                    <i data-lucide=\"scissors\" class=\"w-6 h-6\"></i>\n                </div>\n                <h3 class=\"text-xl font-bold text-slate-900\">Toll Shredding & Granulation</h3>\n                <p class=\"text-sm text-slate-600 leading-relaxed font-light\">\n                    Contract toll processing for compounders who need their internal scrap converted into uniform regrind flakes without cross-contamination.\n                </p>\n                <ul class=\"text-xs text-slate-500 space-y-1.5 pt-2 border-t border-slate-100\">\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> 3/8\" to 5/16\" screen classification</li>\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> Complete batch decontamination</li>\n                </ul>\n            </div>\n\n            <!-- Service 3: PVC Specialty Stream -->\n            <div class=\"wp-card bg-white rounded-2xl p-8 border-2 border-gold-500/80 shadow-soft space-y-4 relative overflow-hidden group reveal-on-scroll delay-300\">\n                <div class=\"absolute top-3 right-3 text-[10px] font-mono font-bold uppercase bg-gold-500 text-slate-900 px-2 py-0.5 rounded\">\n                    Specialty Flagship\n                </div>\n                <div class=\"w-12 h-12 rounded-xl bg-gold-500 text-slate-900 flex items-center justify-center font-bold\">\n                    <i data-lucide=\"layers\" class=\"w-6 h-6\"></i>\n                </div>\n                <h3 class=\"text-xl font-bold text-slate-900\">Rigid PVC Stream Dedicated Line</h3>\n                <p class=\"text-sm text-slate-600 leading-relaxed font-light\">\n                    Quebec's most dedicated recovery line for rigid PVC window profiles, siding off-cuts, and conduit scrap, de-dusted with fines removed.\n                </p>\n                <ul class=\"text-xs text-slate-500 space-y-1.5 pt-2 border-t border-slate-100\">\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> White, off-white, and dark regrind</li>\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> Moisture &lt; 0.01% guarantee</li>\n                </ul>\n            </div>\n\n            <!-- Service 4: Zero Landfill Audit -->\n            <div class=\"wp-card bg-white rounded-2xl p-8 border border-slate-200 shadow-soft space-y-4 relative overflow-hidden group reveal-on-scroll delay-100\">\n                <div class=\"w-12 h-12 rounded-xl bg-gold-500/10 text-gold-600 flex items-center justify-center font-bold group-hover:bg-gold-500 group-hover:text-slate-900 transition-colors\">\n                    <i data-lucide=\"leaf\" class=\"w-6 h-6\"></i>\n                </div>\n                <h3 class=\"text-xl font-bold text-slate-900\">Zero-Landfill Plant Programs</h3>\n                <p class=\"text-sm text-slate-600 leading-relaxed font-light\">\n                    We audit your manufacturing facility floor, set up color-coded scrap totes, and train your staff to maximize scrap value and eliminate tipping fees.\n                </p>\n                <ul class=\"text-xs text-slate-500 space-y-1.5 pt-2 border-t border-slate-100\">\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> ESG & Recyc-Qu\u00e9bec documentation</li>\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> Guaranteed 100% diversion certificate</li>\n                </ul>\n            </div>\n\n            <!-- Service 5: Compounding Raw Materials -->\n            <div class=\"wp-card bg-white rounded-2xl p-8 border border-slate-200 shadow-soft space-y-4 relative overflow-hidden group reveal-on-scroll delay-200\">\n                <div class=\"w-12 h-12 rounded-xl bg-gold-500/10 text-gold-600 flex items-center justify-center font-bold group-hover:bg-gold-500 group-hover:text-slate-900 transition-colors\">\n                    <i data-lucide=\"box\" class=\"w-6 h-6\"></i>\n                </div>\n                <h3 class=\"text-xl font-bold text-slate-900\">Custom Sourced Regrind Batches</h3>\n                <p class=\"text-sm text-slate-600 leading-relaxed font-light\">\n                    We supply extruders, injection molders, and rotomolders with steady monthly railcars or truckloads of certified specification regrind.\n                </p>\n                <ul class=\"text-xs text-slate-500 space-y-1.5 pt-2 border-t border-slate-100\">\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> Continuous contract allocations</li>\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> Super sacks, gaylords, or bulk</li>\n                </ul>\n            </div>\n\n            <!-- Service 6: Cross-Border Logistics -->\n            <div class=\"wp-card bg-white rounded-2xl p-8 border border-slate-200 shadow-soft space-y-4 relative overflow-hidden group reveal-on-scroll delay-300\">\n                <div class=\"w-12 h-12 rounded-xl bg-gold-500/10 text-gold-600 flex items-center justify-center font-bold group-hover:bg-gold-500 group-hover:text-slate-900 transition-colors\">\n                    <i data-lucide=\"globe-2\" class=\"w-6 h-6\"></i>\n                </div>\n                <h3 class=\"text-xl font-bold text-slate-900\">Cross-Border Trading Desk</h3>\n                <p class=\"text-sm text-slate-600 leading-relaxed font-light\">\n                    Seamless logistics between Canada and US border states with complete customs paperwork, phytosanitary pallet certification, and ocean container drayage.\n                </p>\n                <ul class=\"text-xs text-slate-500 space-y-1.5 pt-2 border-t border-slate-100\">\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> USMCA / CUSMA certified documentation</li>\n                    <li class=\"flex items-center gap-2\"><i data-lucide=\"check\" class=\"w-3.5 h-3.5 text-gold-600\"></i> Rapid customs brokerage clearance</li>\n                </ul>\n            </div>\n\n        </div>\n    </div>\n</section>",
-                "_title": "Section 6: CORE SERVICES GRID"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "title": "END-TO-END SERVICES",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#d97706",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                }
+              }
+            },
+            {
+              "id": "d8a63e1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Full-Spectrum Industrial Polymer Solutions",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "025d8db",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>From scrap acquisition and high-throughput toll granulation to dedicated PVC recovery and cross-border resin trading.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "align": "center"
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "dc6afa0",
+      "id": "e9e1aa4",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 7: SPLIT SECTION 2: FACTORY SCRAP LOGISTICS"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "24",
+          "bottom": "15",
+          "left": "24",
+          "isLinked": false
+        }
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "06c414c",
+          "id": "e77d3fb",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 33.33,
+            "_inline_size": 33.33,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "30d2e38",
+              "id": "1f27872",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "icon-box",
               "settings": {
-                "html": "<section class=\"py-24 bg-white overflow-hidden\">\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n        <div class=\"grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center\">\n            \n            <!-- Left Side: Text for Factory Owners -->\n            <div class=\"lg:col-span-6 space-y-6 reveal-on-scroll\">\n                <div class=\"inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-100 text-gold-800 text-xs font-mono font-semibold\">\n                    <i data-lucide=\"truck\" class=\"w-3.5 h-3.5\"></i>\n                    <span>FOR FACTORIES & CONVERTERS</span>\n                </div>\n\n                <h2 class=\"text-3xl sm:text-4xl font-extrabold text-slate-900 font-display tracking-tight leading-tight\">\n                    Turn Post-Industrial Scrap Into Working Capital Within 48 Hours.\n                </h2>\n\n                <p class=\"text-slate-600 leading-relaxed text-base font-light\">\n                    Factory space is too valuable to be cluttered with rejected parts, start-up lumps, and skeletal punch scrap. We provide turnkey scrap removal for manufacturing plants across Quebec and Ontario.\n                </p>\n\n                <div class=\"space-y-3 pt-2\">\n                    <div class=\"flex items-start gap-3\">\n                        <div class=\"w-6 h-6 rounded-full bg-gold-500/20 text-gold-700 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5\">\n                            <i data-lucide=\"check\" class=\"w-4 h-4 text-gold-600\"></i>\n                        </div>\n                        <div>\n                            <h4 class=\"text-sm font-bold text-slate-900\">Dedicated On-Site Drop Trailers</h4>\n                            <p class=\"text-xs text-slate-500\">We place a 53-ft dry van at your dock. You load your scrap as produced; when full, we swap it within 48 hours.</p>\n                        </div>\n                    </div>\n\n                    <div class=\"flex items-start gap-3\">\n                        <div class=\"w-6 h-6 rounded-full bg-gold-500/20 text-gold-700 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5\">\n                            <i data-lucide=\"check\" class=\"w-4 h-4 text-gold-600\"></i>\n                        </div>\n                        <div>\n                            <h4 class=\"text-sm font-bold text-slate-900\">Certified Weight Receipts</h4>\n                            <p class=\"text-xs text-slate-500\">Every trailer is scaled in and out on calibrated Government of Canada certified scales with photographic verification.</p>\n                        </div>\n                    </div>\n\n                    <div class=\"flex items-start gap-3\">\n                        <div class=\"w-6 h-6 rounded-full bg-gold-500/20 text-gold-700 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5\">\n                            <i data-lucide=\"check\" class=\"w-4 h-4 text-gold-600\"></i>\n                        </div>\n                        <div>\n                            <h4 class=\"text-sm font-bold text-slate-900\">Reliable Terms & Prompt Settlements</h4>\n                            <p class=\"text-xs text-slate-500\">Clear indexed pricing per pound and fast Net-15 or Net-30 settlements so your cash flow is protected.</p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"pt-2\">\n                    <a href=\"#contact\" class=\"px-6 py-3.5 rounded-xl font-bold text-xs uppercase tracking-wider text-slate-900 bg-gold-500 hover:bg-gold-400 transition-all shadow-gold-glow inline-flex items-center gap-2\">\n                        <span>Sell Factory Scrap Now</span>\n                        <i data-lucide=\"arrow-right\" class=\"w-3.5 h-3.5\"></i>\n                    </a>\n                </div>\n            </div>\n\n            <!-- Right Side: Real Logistics Warehouse Image -->\n            <div class=\"lg:col-span-6 relative reveal-on-scroll delay-100\">\n                <div class=\"relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200\">\n                    <img src=\"https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80\" alt=\"Montreal Polymers Logistics and Receiving Docks\" class=\"w-full h-[480px] object-cover hover:scale-105 transition-transform duration-700\">\n                    <div class=\"absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent\"></div>\n                    \n                    <!-- Floating Logistics Badge on Image -->\n                    <div class=\"absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/95 backdrop-blur-md border border-slate-200 shadow-xl flex items-center justify-between\">\n                        <div class=\"flex items-center gap-3\">\n                            <div class=\"w-10 h-10 rounded-xl bg-gold-500/20 text-gold-700 flex items-center justify-center font-bold\">\n                                <i data-lucide=\"warehouse\" class=\"w-5 h-5 text-gold-600\"></i>\n                            </div>\n                            <div>\n                                <div class=\"text-xs font-bold text-slate-900\">Laval Receiving Hub</div>\n                                <div class=\"text-[11px] text-slate-500\">Fast Dock Swaps Across Montreal & Toronto Corridors</div>\n                            </div>\n                        </div>\n                        <span class=\"text-xs font-mono font-bold text-slate-900 bg-gold-400 px-2.5 py-1 rounded-lg\">48h Swap</span>\n                    </div>\n                </div>\n\n                <!-- Decorative Background Element -->\n                <div class=\"absolute -bottom-6 -right-6 w-32 h-32 bg-gold-500/10 rounded-full blur-2xl -z-10\"></div>\n            </div>\n\n        </div>\n    </div>\n</section>",
-                "_title": "Section 7: SPLIT SECTION 2: FACTORY SCRAP LOGISTICS"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "selected_icon": {
+                  "value": "fas fa-truck-loading",
+                  "library": "fa-solid"
+                },
+                "title_text": "Post-Industrial Scrap Purchasing",
+                "description_text": "We buy surplus purges, runners, sprues, rejected parts, and obsolete stock across Canada and the US.",
+                "position": "top",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "7888adc",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.33,
+            "_inline_size": 33.33,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "540071d",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-cogs",
+                  "library": "fa-solid"
+                },
+                "title_text": "Toll Shredding & Granulation",
+                "description_text": "Send us your raw scrap and purges; we size-reduce and grind to your exact screen mesh specifications with rapid return turnaround.",
+                "position": "top",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "12912e3",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.33,
+            "_inline_size": 33.33,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "7ae22ef",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-layer-group",
+                  "library": "fa-solid"
+                },
+                "title_text": "Rigid PVC Dedicated Stream",
+                "description_text": "Zero-cross-contamination processing line exclusively engineered for rigid PVC window profiles, siding, and conduit.",
+                "position": "top",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "8f3cc6e",
+      "id": "347587c",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 8: RIGID PVC STREAM SPECIALIZATION"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": {
+          "unit": "px",
+          "top": "15",
+          "right": "24",
+          "bottom": "100",
+          "left": "24",
+          "isLinked": false
+        }
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "4c05ec5",
+          "id": "0e7960e",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 33.33,
+            "_inline_size": 33.33,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "af3be22",
+              "id": "c40e533",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "icon-box",
               "settings": {
-                "html": "<section id=\"pvc\" class=\"py-24 bg-slate-900 text-white relative overflow-hidden\">\n    \n    <!-- Subtle Glow Effect -->\n    <div class=\"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-gold-500/5 rounded-full blur-3xl pointer-events-none\"></div>\n\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-16\">\n        \n        <div class=\"max-w-3xl mx-auto text-center space-y-4 reveal-on-scroll\">\n            <div class=\"inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800 text-gold-400 text-xs font-mono font-semibold border border-slate-700\">\n                <span class=\"w-2 h-2 rounded-full bg-gold-500\"></span>\n                <span>OUR FLAGSHIP MATERIAL EXCELLENCE</span>\n            </div>\n            <h2 class=\"text-3xl sm:text-4xl font-extrabold text-white font-display tracking-tight\">\n                Quebec's Most Dedicated Rigid PVC Recovery Stream\n            </h2>\n            <p class=\"text-slate-300 text-base font-light\">\n                PVC (Polyvinyl Chloride) requires strict segregation from other polymers. Even 0.1% PET or Polyolefin contamination destroys an extrusion run. Our specialized PVC line ensures pure, laboratory-verified flakes.\n            </p>\n        </div>\n\n        <!-- PVC Comparison & Specifications Table -->\n        <div class=\"grid grid-cols-1 lg:grid-cols-3 gap-8\">\n            \n            <!-- Card 1: Window & Door Profile -->\n            <div class=\"bg-slate-800/90 rounded-2xl p-6 border border-slate-700 shadow-xl space-y-4 reveal-on-scroll delay-100\">\n                <div class=\"flex justify-between items-start\">\n                    <span class=\"text-xs font-mono font-bold uppercase text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded border border-gold-800\">Grade A-1</span>\n                    <i data-lucide=\"check-circle\" class=\"w-5 h-5 text-gold-500\"></i>\n                </div>\n                <h3 class=\"text-xl font-bold text-white\">Window & Door Regrind</h3>\n                <p class=\"text-xs text-slate-400 leading-relaxed\">\n                    Pure white and off-white window profile scrap without gaskets, steel reinforcement, or protective tape.\n                </p>\n                <div class=\"space-y-2 pt-3 border-t border-slate-700 text-xs font-mono\">\n                    <div class=\"flex justify-between text-slate-300\">\n                        <span>MFI / Melt Flow:</span>\n                        <span class=\"font-bold text-white\">0.8 \u2013 1.2 g/10min</span>\n                    </div>\n                    <div class=\"flex justify-between text-slate-300\">\n                        <span>Specific Gravity:</span>\n                        <span class=\"font-bold text-white\">1.42 \u2013 1.45</span>\n                    </div>\n                    <div class=\"flex justify-between text-slate-300\">\n                        <span>Fines Content (&lt;20 mesh):</span>\n                        <span class=\"font-bold text-gold-400\">&lt; 0.5% (De-dusted)</span>\n                    </div>\n                </div>\n                <a href=\"#contact\" class=\"block text-center py-2.5 rounded-xl bg-slate-700 hover:bg-gold-500 hover:text-slate-900 text-white font-bold text-xs uppercase tracking-wider transition-colors\">\n                    Request Spec Sheet\n                </a>\n            </div>\n\n            <!-- Card 2: Pipe & Conduit Regrind -->\n            <div class=\"bg-slate-800/90 rounded-2xl p-6 border-2 border-gold-500 shadow-xl space-y-4 relative reveal-on-scroll delay-200\">\n                <div class=\"absolute -top-3 right-6 bg-gold-500 text-slate-900 font-bold text-[10px] font-mono px-2.5 py-0.5 rounded-full uppercase tracking-wider\">\n                    Highest Volume\n                </div>\n                <div class=\"flex justify-between items-start\">\n                    <span class=\"text-xs font-mono font-bold uppercase text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded border border-gold-800\">Grade B-1</span>\n                    <i data-lucide=\"layers\" class=\"w-5 h-5 text-gold-500\"></i>\n                </div>\n                <h3 class=\"text-xl font-bold text-white\">Pipe & Conduit Scrap</h3>\n                <p class=\"text-xs text-slate-400 leading-relaxed\">\n                    Electrical conduit, municipal drainage pipe cut-offs, and sewer pipe regrind, sorted by gray and white colors.\n                </p>\n                <div class=\"space-y-2 pt-3 border-t border-slate-700 text-xs font-mono\">\n                    <div class=\"flex justify-between text-slate-300\">\n                        <span>Color Classification:</span>\n                        <span class=\"font-bold text-white\">Dark Gray / White</span>\n                    </div>\n                    <div class=\"flex justify-between text-slate-300\">\n                        <span>Screen Size:</span>\n                        <span class=\"font-bold text-white\">3/8\" (9.5mm)</span>\n                    </div>\n                    <div class=\"flex justify-between text-slate-300\">\n                        <span>Moisture Guarantee:</span>\n                        <span class=\"font-bold text-gold-400\">&lt; 0.01%</span>\n                    </div>\n                </div>\n                <a href=\"#contact\" class=\"block text-center py-2.5 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-900 font-bold text-xs uppercase tracking-wider transition-colors shadow-gold-glow\">\n                    Request Material RFQ\n                </a>\n            </div>\n\n            <!-- Card 3: Siding & Foam Profiles -->\n            <div class=\"bg-slate-800/90 rounded-2xl p-6 border border-slate-700 shadow-xl space-y-4 reveal-on-scroll delay-300\">\n                <div class=\"flex justify-between items-start\">\n                    <span class=\"text-xs font-mono font-bold uppercase text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded border border-gold-800\">Grade C-2</span>\n                    <i data-lucide=\"package\" class=\"w-5 h-5 text-gold-500\"></i>\n                </div>\n                <h3 class=\"text-xl font-bold text-white\">Siding & Foam Board Regrind</h3>\n                <p class=\"text-xs text-slate-400 leading-relaxed\">\n                    Cellular and rigid PVC building siding scrap, clean post-industrial material in gaylords or super sacks.\n                </p>\n                <div class=\"space-y-2 pt-3 border-t border-slate-700 text-xs font-mono\">\n                    <div class=\"flex justify-between text-slate-300\">\n                        <span>Bulk Density:</span>\n                        <span class=\"font-bold text-white\">0.55 \u2013 0.65 g/cm\u00b3</span>\n                    </div>\n                    <div class=\"flex justify-between text-slate-300\">\n                        <span>Packaging:</span>\n                        <span class=\"font-bold text-white\">Gaylord Box / Liner</span>\n                    </div>\n                    <div class=\"flex justify-between text-slate-300\">\n                        <span>Monthly Capacity:</span>\n                        <span class=\"font-bold text-gold-400\">120,000 lbs</span>\n                    </div>\n                </div>\n                <a href=\"#contact\" class=\"block text-center py-2.5 rounded-xl bg-slate-700 hover:bg-gold-500 hover:text-slate-900 text-white font-bold text-xs uppercase tracking-wider transition-colors\">\n                    Request Spec Sheet\n                </a>\n            </div>\n\n        </div>\n\n    </div>\n</section>",
-                "_title": "Section 8: RIGID PVC STREAM SPECIALIZATION"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "selected_icon": {
+                  "value": "fas fa-recycle",
+                  "library": "fa-solid"
+                },
+                "title_text": "Zero-Landfill Plant Programs",
+                "description_text": "Comprehensive on-site plant waste audit, dedicated roll-off containers, scheduled swaps, and certified destruction receipts.",
+                "position": "top",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "974f254",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.33,
+            "_inline_size": 33.33,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "1a6c7bf",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-microscope",
+                  "library": "fa-solid"
+                },
+                "title_text": "Custom Sourced Regrind Batches",
+                "description_text": "Consistent, tested batches of HDPE, PP, and PVC regrind with verified melt flow index and density certificates.",
+                "position": "top",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "66f153e",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.33,
+            "_inline_size": 33.33,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "95892a9",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-globe-americas",
+                  "library": "fa-solid"
+                },
+                "title_text": "Cross-Border Freight Logistics",
+                "description_text": "Seamless logistics, customs clearance, and multi-carload rail/trailer freight coordination across North America.",
+                "position": "top",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "972bb1f",
+      "id": "0a75da2",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 9: SPLIT SECTION 3: TECHNICAL SPECIFICATIONS & TESTING"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "100",
+          "left": "24",
+          "isLinked": false
+        },
+        "_section_id": "scrap-purchasing"
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "859de73",
+          "id": "3d59e93",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 50,
+            "_inline_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "20",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": false
+            }
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "77d61cf",
+              "id": "bf10634",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "image",
               "settings": {
-                "html": "<section id=\"products\" class=\"py-24 bg-white overflow-hidden\">\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n        <div class=\"grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center\">\n            \n            <!-- Left Side: Granules & Flakes Photo -->\n            <div class=\"lg:col-span-6 relative reveal-on-scroll\">\n                <div class=\"relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200\">\n                    <img src=\"https://images.unsplash.com/photo-1610891015188-5369212db097?auto=format&fit=crop&w=1000&q=80\" alt=\"Recycled Polymer Granules and Flakes\" class=\"w-full h-[480px] object-cover hover:scale-105 transition-transform duration-700\">\n                    <div class=\"absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent\"></div>\n                    \n                    <!-- Floating QA Badge on Image -->\n                    <div class=\"absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/95 backdrop-blur-md border border-slate-200 shadow-xl flex items-center justify-between\">\n                        <div class=\"flex items-center gap-3\">\n                            <div class=\"w-10 h-10 rounded-xl bg-gold-500/20 text-gold-700 flex items-center justify-center font-bold\">\n                                <i data-lucide=\"check-check\" class=\"w-5 h-5 text-gold-600\"></i>\n                            </div>\n                            <div>\n                                <div class=\"text-xs font-bold text-slate-900\">Lab Batch Certification</div>\n                                <div class=\"text-[11px] text-slate-500\">Every Gaylord & Super Sack Tested for Zero Contamination</div>\n                            </div>\n                        </div>\n                        <span class=\"text-xs font-mono font-bold text-slate-900 bg-gold-400 px-2.5 py-1 rounded-lg\">99.9% Pure</span>\n                    </div>\n                </div>\n\n                <!-- Decorative Background Element -->\n                <div class=\"absolute -top-6 -left-6 w-32 h-32 bg-gold-500/10 rounded-full blur-2xl -z-10\"></div>\n            </div>\n\n            <!-- Right Side: Quality Assurance Narrative -->\n            <div class=\"lg:col-span-6 space-y-6 reveal-on-scroll delay-100\">\n                <div class=\"inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-100 text-gold-800 text-xs font-mono font-semibold\">\n                    <i data-lucide=\"award\" class=\"w-3.5 h-3.5\"></i>\n                    <span>QUALITY ASSURANCE FOR COMPOUNDERS</span>\n                </div>\n\n                <h2 class=\"text-3xl sm:text-4xl font-extrabold text-slate-900 font-display tracking-tight leading-tight\">\n                    Laboratory Tested. Barcoded Gaylords. Guaranteed Delivery.\n                </h2>\n\n                <p class=\"text-slate-600 leading-relaxed text-base font-light\">\n                    Procurement managers cannot afford machine downtime caused by unvetted scrap traders. At Montreal Polymers, every shipment is supported by an official Certificate of Analysis (COA) specifying melt flow index, contamination thresholds, and bulk density.\n                </p>\n\n                <div class=\"grid grid-cols-2 gap-4 pt-2\">\n                    <div class=\"p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1\">\n                        <div class=\"text-lg font-extrabold text-slate-900\">&lt; 0.01%</div>\n                        <div class=\"text-xs font-semibold text-slate-500 uppercase\">Max Moisture Threshold</div>\n                    </div>\n                    <div class=\"p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1\">\n                        <div class=\"text-lg font-extrabold text-slate-900\">0 ppm</div>\n                        <div class=\"text-xs font-semibold text-slate-500 uppercase\">Ferrous Metal Contamination</div>\n                    </div>\n                    <div class=\"p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1\">\n                        <div class=\"text-lg font-extrabold text-slate-900\">100% Traceable</div>\n                        <div class=\"text-xs font-semibold text-slate-500 uppercase\">Single-Source Factory Scrap</div>\n                    </div>\n                    <div class=\"p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1\">\n                        <div class=\"text-lg font-extrabold text-slate-900\">CUSMA Ready</div>\n                        <div class=\"text-xs font-semibold text-slate-500 uppercase\">Cross-Border Custom Papers</div>\n                    </div>\n                </div>\n\n                <div class=\"pt-2\">\n                    <a href=\"#contact\" class=\"inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-bold text-xs uppercase tracking-wider text-slate-900 bg-gold-500 hover:bg-gold-400 transition-all shadow-gold-glow\">\n                        <span>Request Sample Gaylord / Spec Sheet</span>\n                        <i data-lucide=\"arrow-right\" class=\"w-3.5 h-3.5\"></i>\n                    </a>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
-                "_title": "Section 9: SPLIT SECTION 3: TECHNICAL SPECIFICATIONS & TESTING"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 20,
+                  "blur": 40,
+                  "spread": -8,
+                  "color": "rgba(15, 23, 42, 0.15)"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "31a2817",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "30",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "7f30c48",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SEAMLESS SCRAP MONETIZATION",
+                "header_size": "span",
+                "align": "left",
+                "title_color": "#d97706",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                }
+              }
+            },
+            {
+              "id": "f378735",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Turn Post-Industrial Scrap Into Working Capital Within 48 Hours.",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "1b94f88",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Idle scrap takes up valuable warehouse floor space and locks up working capital. Montreal Polymers provides turnkey scrap management with custom drop trailers and lightning-fast payment terms.</p>",
+                "text_color": "#475569",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "cb95545",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-warehouse",
+                  "library": "fa-solid"
+                },
+                "title_text": "Dedicated On-Site Drop Trailers",
+                "description_text": "We stage drop trailers directly at your manufacturing facility for continuous scrap loading.",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "257b1d3",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-balance-scale",
+                  "library": "fa-solid"
+                },
+                "title_text": "Certified Weight Receipts",
+                "description_text": "Certified scale tickets provided on every pickup for complete accounting transparency.",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "93523c4",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-hand-holding-usd",
+                  "library": "fa-solid"
+                },
+                "title_text": "Reliable Terms & Prompt Settlements",
+                "description_text": "Wire or check payments issued promptly upon receipt and grading verification.",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "12d6a8f",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "3970066",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Schedule a Plant Audit & Trailer Drop",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "size": "md",
+                "button_text_color": "#0f172a",
+                "background_color": "#ffcb0a",
+                "hover_color": "#0f172a",
+                "button_background_hover_color": "#fde047",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "28",
+                  "bottom": "16",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "700"
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "0961ea6",
+      "id": "5b4859b",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 10: 4-STEP COLD MECHANICAL PROCESS"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#0f172a",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "100",
+          "left": "24",
+          "isLinked": false
+        },
+        "_section_id": "pvc"
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "4496e8c",
+          "id": "6ce64cd",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 60,
+            "_inline_size": 60,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "30",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": false
+            }
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "ed1cc59",
+              "id": "cadd81d",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section class=\"py-24 bg-slate-50 border-t border-slate-200\">\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16\">\n        \n        <div class=\"max-w-3xl mx-auto text-center space-y-4 reveal-on-scroll\">\n            <div class=\"inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-100 text-gold-800 text-xs font-mono font-semibold\">\n                <span>STEP-BY-STEP WORKFLOW</span>\n            </div>\n            <h2 class=\"text-3xl sm:text-4xl font-extrabold text-slate-900 font-display tracking-tight\">\n                How Montreal Polymers Processes Industrial Scrap\n            </h2>\n            <p class=\"text-slate-600 text-base font-light\">\n                A disciplined 4-stage mechanical protocol that safeguards purity, preserves polymer chains, and eliminates landfill waste.\n            </p>\n        </div>\n\n        <div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8\">\n            \n            <!-- Step 1 -->\n            <div class=\"bg-white rounded-2xl p-6 border border-slate-200/80 shadow-soft space-y-4 relative reveal-on-scroll delay-100\">\n                <div class=\"w-10 h-10 rounded-full bg-gold-500 text-slate-900 font-extrabold font-mono flex items-center justify-center text-sm shadow-md\">\n                    01\n                </div>\n                <h3 class=\"text-lg font-bold text-slate-900\">Dock Receiving & Sort</h3>\n                <p class=\"text-xs text-slate-600 leading-relaxed font-light\">\n                    Scrap arrives via drop trailer or flatbed. Every lot is weighed on certified scales and inspected for polymer grade, color segregation, and purity.\n                </p>\n                <div class=\"text-[11px] font-mono text-gold-700 bg-gold-50 px-2 py-1 rounded\">\n                    Certified Scale Ticket Issued\n                </div>\n            </div>\n\n            <!-- Step 2 -->\n            <div class=\"bg-white rounded-2xl p-6 border border-slate-200/80 shadow-soft space-y-4 relative reveal-on-scroll delay-200\">\n                <div class=\"w-10 h-10 rounded-full bg-gold-500 text-slate-900 font-extrabold font-mono flex items-center justify-center text-sm shadow-md\">\n                    02\n                </div>\n                <h3 class=\"text-lg font-bold text-slate-900\">Magnetic De-Ironing</h3>\n                <p class=\"text-xs text-slate-600 leading-relaxed font-light\">\n                    Heavy cross-belt neodymium magnets extract screws, steel fasteners, and metallic inserts from window frames or assembly trimmings.\n                </p>\n                <div class=\"text-[11px] font-mono text-gold-700 bg-gold-50 px-2 py-1 rounded\">\n                    12,000 Gauss Neodymium\n                </div>\n            </div>\n\n            <!-- Step 3 -->\n            <div class=\"bg-white rounded-2xl p-6 border border-slate-200/80 shadow-soft space-y-4 relative reveal-on-scroll delay-300\">\n                <div class=\"w-10 h-10 rounded-full bg-gold-500 text-slate-900 font-extrabold font-mono flex items-center justify-center text-sm shadow-md\">\n                    03\n                </div>\n                <h3 class=\"text-lg font-bold text-slate-900\">Cold Mechanical Granulation</h3>\n                <p class=\"text-xs text-slate-600 leading-relaxed font-light\">\n                    Heavy-duty water-cooled rotor knives reduce rigid pieces into uniform 3/8\" regrind flakes without thermal burn or chemical solvents.\n                </p>\n                <div class=\"text-[11px] font-mono text-gold-700 bg-gold-50 px-2 py-1 rounded\">\n                    0% Chemical Solvents Used\n                </div>\n            </div>\n\n            <!-- Step 4 -->\n            <div class=\"bg-white rounded-2xl p-6 border border-slate-200/80 shadow-soft space-y-4 relative reveal-on-scroll delay-400\">\n                <div class=\"w-10 h-10 rounded-full bg-gold-500 text-slate-900 font-extrabold font-mono flex items-center justify-center text-sm shadow-md\">\n                    04\n                </div>\n                <h3 class=\"text-lg font-bold text-slate-900\">Aspiration, QA & Dispatch</h3>\n                <p class=\"text-xs text-slate-600 leading-relaxed font-light\">\n                    Air classifiers remove micro-fines and dust. Flakes are packed into lined gaylord boxes or bulk bags, barcoded, and lab-certified for dispatch.\n                </p>\n                <div class=\"text-[11px] font-mono text-gold-700 bg-gold-50 px-2 py-1 rounded\">\n                    COA Issued per 44,000 lbs FTL\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
-                "_title": "Section 10: 4-STEP COLD MECHANICAL PROCESS"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "title": "SPECIALIZED FACILITY CAPABILITY",
+                "header_size": "span",
+                "align": "left",
+                "title_color": "#ffcb0a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                }
+              }
+            },
+            {
+              "id": "71ef5d8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quebec's Most Dedicated Rigid PVC Recovery Stream",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "fd15f83",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>PVC cannot tolerate contamination from polyolefins like PE or PP. Montreal Polymers operates an isolated, dedicated rigid PVC processing line with dedicated heavy shredders, granulators, and magnetic/optical separation units to ensure zero cross-contamination.</p>",
+                "text_color": "#cbd5e1",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "6288c25",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check-circle",
+                  "library": "fa-solid"
+                },
+                "title_text": "Window & Door Regrind",
+                "description_text": "Clean white and mixed extruded profiles sorted and aspirated to 3/8\" flake.",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#ffffff",
+                "description_color": "#cbd5e1",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "c4fd836",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-check-circle",
+                  "library": "fa-solid"
+                },
+                "title_text": "Siding, Pipe & Conduit Regrind",
+                "description_text": "High-rigidity PVC materials processed with zero moisture and strict contamination controls.",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#ffffff",
+                "description_color": "#cbd5e1",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "a026a4b",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "229b4c8",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire About PVC Volumes",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "size": "md",
+                "button_text_color": "#0f172a",
+                "background_color": "#ffcb0a",
+                "hover_color": "#0f172a",
+                "button_background_hover_color": "#fde047",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "28",
+                  "bottom": "16",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "1212c5e",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 40,
+            "_inline_size": 40,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "da94373",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "center",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 20,
+                  "blur": 40,
+                  "spread": -8,
+                  "color": "rgba(15, 23, 42, 0.15)"
+                }
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "6503d01",
+      "id": "0219379",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 11: INTERACTIVE LANDFILL & REVENUE CALCULATOR"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "30",
+          "left": "24",
+          "isLinked": false
+        },
+        "_section_id": "products"
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "9f666fa",
+          "id": "0ec7dfe",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 100,
+            "_inline_size": 100
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "a52c0d8",
+              "id": "c3f6ec5",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section id=\"calculator\" class=\"py-24 bg-white border-t border-slate-200\">\n    <div class=\"max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 reveal-on-scroll\">\n        \n        <div class=\"text-center space-y-4\">\n            <div class=\"inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-100 text-gold-800 text-xs font-mono font-semibold\">\n                <i data-lucide=\"calculator\" class=\"w-3.5 h-3.5\"></i>\n                <span>INTERACTIVE ESG & REVENUE ESTIMATOR</span>\n            </div>\n            <h2 class=\"text-3xl sm:text-4xl font-extrabold text-slate-900 font-display tracking-tight\">\n                Calculate Landfill Diversion & Monthly Scrap Value\n            </h2>\n            <p class=\"text-slate-600 text-base font-light max-w-2xl mx-auto\">\n                Adjust your monthly manufacturing scrap volume below to calculate total cubic meters spared from Canadian landfills and estimated scrap payout.\n            </p>\n        </div>\n\n        <?php echo do_shortcode( '[montreal_landfill_calculator]' ); ?>\n\n    </div>\n</section>",
-                "_title": "Section 11: INTERACTIVE LANDFILL & REVENUE CALCULATOR"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "title": "MATERIAL CATALOG",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#d97706",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                }
+              }
+            },
+            {
+              "id": "fd97c8d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Tested & Verified Polymer Regrind Streams",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "7a322d0",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Every batch is sorted, granulated through 3/8\" or 5/16\" screens, aspirated to remove fines and dust, and metal-detected.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "align": "center"
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "09d313a",
+      "id": "0123937",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
       "settings": {
-        "layout": "full_width",
-        "gap": "no",
-        "_title": "Section 12: DUAL CONVERSION FUNNEL"
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "24",
+          "bottom": "100",
+          "left": "24",
+          "isLinked": false
+        }
       },
-      "defaultEditSettings": {},
       "elements": [
         {
-          "id": "32fc0e8",
+          "id": "9340d16",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "22",
+              "bottom": "28",
+              "left": "22",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "720d35c",
+              "id": "171bbce",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<section id=\"contact\" class=\"py-24 bg-slate-50 border-t border-slate-200\">\n    <div class=\"max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12\">\n        \n        <div class=\"text-center space-y-4 reveal-on-scroll\">\n            <div class=\"inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-100 text-gold-800 text-xs font-mono font-semibold\">\n                <i data-lucide=\"send\" class=\"w-3.5 h-3.5\"></i>\n                <span>FAST RESPONSE GUARANTEED</span>\n            </div>\n            <h2 class=\"text-3xl sm:text-4xl font-extrabold text-slate-900 font-display tracking-tight\">\n                Direct Contact With Our Montreal Trading Desk\n            </h2>\n            <p class=\"text-slate-600 text-base font-light max-w-2xl mx-auto\">\n                Select your operational objective below. Whether buying certified regrind or dispatching industrial scrap, our trading desk responds within 2 business hours.\n            </p>\n        </div>\n\n        <!-- Form Card with Tab Switcher -->\n        <?php echo do_shortcode( '[montreal_contact_form]' ); ?>\n\n    </div>\n</section>",
-                "_title": "Section 12: DUAL CONVERSION FUNNEL"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "title": "Rigid PVC",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "b4ad75d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>White window profiles, siding, and conduit. Moisture &lt; 0.2%, zero cross-contamination.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "9fcf095",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#e2e8f0",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 20
+                }
+              }
+            },
+            {
+              "id": "fd76ec0",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Screen:</strong> 3/8\" Flake<br><strong>Source:</strong> Post-Industrial<br><strong>Pack:</strong> 2,000 lb Gaylord</p>",
+                "text_color": "#334155",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b288d98",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "22",
+              "bottom": "28",
+              "left": "22",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "61d08b5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "HDPE Blow & Inj",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "ca5a945",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Drum, bottle, crate, and pipe scrap. Color-separated natural, white, and mixed colors.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "172fd24",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#e2e8f0",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 20
+                }
+              }
+            },
+            {
+              "id": "fcf4c61",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Screen:</strong> 5/16\" Flake<br><strong>MFI:</strong> 0.3 - 8.0<br><strong>Pack:</strong> Bulk / Gaylords</p>",
+                "text_color": "#334155",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "6cca3b0",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "22",
+              "bottom": "28",
+              "left": "22",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "e0cb2e8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Polypropylene",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "011865f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Automotive compounding, battery cases, buckets. Copolymer and homopolymer grades.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "d33e868",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#e2e8f0",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 20
+                }
+              }
+            },
+            {
+              "id": "fb5be92",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Screen:</strong> 3/8\" Flake<br><strong>MFI:</strong> 12 - 35<br><strong>Pack:</strong> Gaylord Boxes</p>",
+                "text_color": "#334155",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "d17db95",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "22",
+              "bottom": "28",
+              "left": "22",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "450d68f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Engineering Resins",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "d095018",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Electronic housings, thermoforming sheets, and automotive scrap regrind.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "3cae4c7",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#e2e8f0",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 20
+                }
+              }
+            },
+            {
+              "id": "741eb50",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Types:</strong> ABS, PC, HIPS<br><strong>Purity:</strong> 99.8% Sorted<br><strong>Pack:</strong> Gaylord Boxes</p>",
+                "text_color": "#334155",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bb2ed5",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "30",
+          "left": "24",
+          "isLinked": false
+        },
+        "_section_id": "quality"
+      },
+      "elements": [
+        {
+          "id": "978d3ed",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100
+          },
+          "elements": [
+            {
+              "id": "9068703",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "STRICT LAB TESTING",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#d97706",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                }
+              }
+            },
+            {
+              "id": "7589a7e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Rigorous Mechanical Quality Control",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "011ad42",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Our three-gate inspection protocol guarantees regrind you can blend with virgin resin without risking tooling downtime.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f44efd5",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "24",
+          "bottom": "100",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "9432252",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.33,
+            "_inline_size": 33.33,
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "24",
+              "bottom": "32",
+              "left": "24",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "4b9d797",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-search",
+                  "library": "fa-solid"
+                },
+                "title_text": "Gate 1: Incoming Scrap Audit",
+                "description_text": "Every inbound load is visually inspected, lab-tested for polymer identity using FTIR spectroscopy, and checked for moisture content.",
+                "position": "top",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "1acd0d4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.33,
+            "_inline_size": 33.33,
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "24",
+              "bottom": "32",
+              "left": "24",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "19f3b49",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-magnet",
+                  "library": "fa-solid"
+                },
+                "title_text": "Gate 2: Metal & Fines Separation",
+                "description_text": "In-line rare-earth neodymium magnetic drums remove ferrous particles; pneumatic aspirators extract dust and airborne fines.",
+                "position": "top",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "aacb452",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.33,
+            "_inline_size": 33.33,
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "24",
+              "bottom": "32",
+              "left": "24",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "5d3d072",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-award",
+                  "library": "fa-solid"
+                },
+                "title_text": "Gate 3: Certified Batch COA",
+                "description_text": "Representative samples from every Gaylord box undergo melt flow index (ASTM D1238) and density tests before dispatch.",
+                "position": "top",
+                "primary_color": "#ffcb0a",
+                "title_color": "#0f172a",
+                "description_color": "#64748b",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7656e40",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#0f172a",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "100",
+          "left": "24",
+          "isLinked": false
+        },
+        "_section_id": "contact"
+      },
+      "elements": [
+        {
+          "id": "6e4f50e",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 45,
+            "_inline_size": 45,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "30",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "d5c328b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "GET IN TOUCH",
+                "header_size": "span",
+                "align": "left",
+                "title_color": "#ffcb0a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                }
+              }
+            },
+            {
+              "id": "0708ba0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Request a Scrap Valuation or Toll Regrind Quote",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "a392cc4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Have surplus plastic resins, purges, or need toll granulation capacity? Speak directly with our Montreal trading desk and processing facility engineers.</p>",
+                "text_color": "#cbd5e1",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "f57b29e",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-map-marker-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Headquarters & Facility",
+                "description_text": "8850 Rue Pascal-Gagnon, Saint-L\u00e9onard, QC H1P 1Z3, Canada",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#ffffff",
+                "description_color": "#cbd5e1",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "a5790af",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-phone-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Direct Phone",
+                "description_text": "+1 (514) 321-7000",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#ffffff",
+                "description_color": "#cbd5e1",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "6f6abcb",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fab fa-whatsapp",
+                  "library": "fa-solid"
+                },
+                "title_text": "WhatsApp Business",
+                "description_text": "+1 (514) 321-7000",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#ffffff",
+                "description_color": "#cbd5e1",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            },
+            {
+              "id": "0402298",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-envelope",
+                  "library": "fa-solid"
+                },
+                "title_text": "Email Inquiry",
+                "description_text": "info@montrealpolymers.com",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#ffffff",
+                "description_color": "#cbd5e1",
+                "title_size": "h4",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Space Grotesk",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Plus Jakarta Sans",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "description_typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "ea8227a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 55,
+            "_inline_size": 55,
+            "padding": {
+              "unit": "px",
+              "top": "36",
+              "right": "32",
+              "bottom": "36",
+              "left": "32",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e2e8f0",
+            "border_radius": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 12,
+              "blur": 30,
+              "spread": -5,
+              "color": "rgba(15,23,42,0.08)"
+            }
+          },
+          "elements": [
+            {
+              "id": "7d804be",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Direct Processing Inquiry",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "6847d57",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Tell us about your material types (PVC, HDPE, PP, Purges), monthly volumes, or toll processing requirements.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "bdfafa5",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Turnaround:</strong> Response within 4 business hours<br><strong>Drop Trailer Dispatch:</strong> Available across Quebec & Ontario<br><strong>Lab Verification:</strong> FTIR spectroscopy test on every lot</p>",
+                "text_color": "#334155",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "2a61ff5",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#e2e8f0",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 20
+                }
+              }
+            },
+            {
+              "id": "e3d0cf6",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Email Material Specs (info@montrealpolymers.com)",
+                "link": {
+                  "url": "mailto:info@montrealpolymers.com",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "size": "lg",
+                "button_text_color": "#0f172a",
+                "background_color": "#ffcb0a",
+                "hover_color": "#0f172a",
+                "button_background_hover_color": "#fde047",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "28",
+                  "bottom": "16",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "e2826cf",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 12
+                }
+              }
+            },
+            {
+              "id": "f3f31cc",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Call Montreal Facility: +1 (514) 321-7000",
+                "link": {
+                  "url": "tel:+15143217000",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "size": "md",
+                "button_text_color": "#ffffff",
+                "background_color": "#0f172a",
+                "hover_color": "#0f172a",
+                "button_background_hover_color": "#1e293b",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "28",
+                  "bottom": "16",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "700"
+              }
             }
           ]
         }
       ]
     }
-  ],
-  "page_settings": {}
+  ]
 }

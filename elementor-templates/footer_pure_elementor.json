@@ -1,0 +1,467 @@
+{
+  "version": "0.4",
+  "title": "Montreal Polymers Footer (Pure Elementor)",
+  "type": "section",
+  "content": [
+    {
+      "id": "4f7350a",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#090e17",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "60",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "c116936",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 35,
+            "_inline_size": 35,
+            "padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "d4cd433",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://lemonchiffon-quetzal-329146.hostingersite.com/wp-content/uploads/2026/11/logot-yellow-light.png",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "left",
+                "width": {
+                  "unit": "px",
+                  "size": 220
+                }
+              }
+            },
+            {
+              "id": "50b43e2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Empowering North American manufacturers with zero-landfill polymer toll processing and certified clean regrind streams. 100% mechanical recovery \u2014 zero hazardous chemicals.</p>",
+                "text_color": "#94a3b8",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "1a850db",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>ISO 9001 Compliant Quality System</strong><br>Zero Hazardous Waste to Landfill Protocol</p>",
+                "text_color": "#ffcb0a",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "a966d37",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": 20,
+            "padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "15",
+              "bottom": "20",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "a6faa7d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Solutions",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "aa75133",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><a href='#scrap-purchasing' style='color:#94a3b8; text-decoration:none;'>Scrap Purchasing</a><br><a href='#services' style='color:#94a3b8; text-decoration:none;'>Toll Shredding</a><br><a href='#pvc' style='color:#94a3b8; text-decoration:none;'>Rigid PVC Stream</a><br><a href='#services' style='color:#94a3b8; text-decoration:none;'>Zero-Landfill Plant</a><br><a href='#products' style='color:#94a3b8; text-decoration:none;'>Custom Regrind</a></p>",
+                "text_color": "#94a3b8",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "507bb02",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": 20,
+            "padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "15",
+              "bottom": "20",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "53f1053",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Polymer Streams",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "3ca7a17",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><a href='#products' style='color:#94a3b8; text-decoration:none;'>Rigid PVC Profiles</a><br><a href='#products' style='color:#94a3b8; text-decoration:none;'>HDPE Blow & Injection</a><br><a href='#products' style='color:#94a3b8; text-decoration:none;'>Polypropylene (PP)</a><br><a href='#products' style='color:#94a3b8; text-decoration:none;'>ABS & PC/ABS Blends</a><br><a href='#quality' style='color:#94a3b8; text-decoration:none;'>FTIR Lab COA</a></p>",
+                "text_color": "#94a3b8",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5c910e9",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "10",
+              "bottom": "20",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "e5dc52e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Montreal Facility",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "0d5ff51",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-map-marker-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "8850 Rue Pascal-Gagnon, Saint-L\u00e9onard, QC H1P 1Z3",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#cbd5e1",
+                "description_color": "#94a3b8",
+                "title_size": "span",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Plus Jakarta Sans",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            },
+            {
+              "id": "22db1db",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-phone-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "+1 (514) 321-7000",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#cbd5e1",
+                "description_color": "#94a3b8",
+                "title_size": "span",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Plus Jakarta Sans",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            },
+            {
+              "id": "04cbba5",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fab fa-whatsapp",
+                  "library": "fa-solid"
+                },
+                "title_text": "WhatsApp: +1 (514) 321-7000",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#22c55e",
+                "title_color": "#ffffff",
+                "description_color": "#94a3b8",
+                "title_size": "span",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Plus Jakarta Sans",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            },
+            {
+              "id": "6607cbb",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-envelope",
+                  "library": "fa-solid"
+                },
+                "title_text": "info@montrealpolymers.com",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#cbd5e1",
+                "description_color": "#94a3b8",
+                "title_size": "span",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Plus Jakarta Sans",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9f2326e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#05080e",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "24",
+          "bottom": "20",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "7d89700",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "8971a26",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>\u00a9 2026 Montreal Polymers Inc. All Rights Reserved. Clean Polymer Recovery Specialists.</p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "1d70717",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "b060c54",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Zero Chemical Machines | Zero Acid Washes | 100% Mechanical Recovery</p>",
+                "text_color": "#94a3b8",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "align": "right"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

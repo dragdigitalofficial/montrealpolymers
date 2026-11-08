@@ -1,42 +1,318 @@
 {
   "version": "0.4",
-  "title": "Montreal Polymers Header (Section)",
+  "title": "Montreal Polymers Header (Pure Elementor)",
   "type": "section",
   "content": [
     {
-      "id": "89d123e",
+      "id": "62a7ea2",
       "elType": "section",
       "isInner": false,
-      "isExternal": false,
-      "settings": {},
-      "defaultEditSettings": {},
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#0f172a",
+        "padding": {
+          "unit": "px",
+          "top": "6",
+          "right": "24",
+          "bottom": "6",
+          "left": "24",
+          "isLinked": false
+        }
+      },
       "elements": [
         {
-          "id": "e1a7671",
+          "id": "193df80",
           "elType": "column",
           "isInner": false,
-          "isExternal": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 50,
+            "_inline_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "10",
+              "bottom": "8",
+              "left": "10",
+              "isLinked": false
+            }
           },
-          "defaultEditSettings": {},
           "elements": [
             {
-              "id": "66537d3",
+              "id": "cd8bff1",
               "elType": "widget",
-              "isInner": false,
-              "isExternal": false,
-              "widgetType": "html",
+              "widgetType": "icon-box",
               "settings": {
-                "html": "\n<!-- Industrial Top Bar (Address, Phone, WhatsApp only) -->\n<div class=\"bg-slate-900 border-b border-slate-800 text-slate-300 text-xs py-2.5\">\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center gap-3\">\n        <div class=\"flex items-center gap-6\">\n            <span class=\"inline-flex items-center gap-2\">\n                <i data-lucide=\"map-pin\" class=\"w-3.5 h-3.5 text-gold-500\"></i>\n                <span class=\"font-medium text-slate-200\">8500 Rue Saint-Patrick, LaSalle, QC H8N 1V1, Canada</span>\n            </span>\n            <span class=\"hidden md:inline-flex items-center gap-2\">\n                <i data-lucide=\"clock\" class=\"w-3.5 h-3.5 text-gold-500\"></i>\n                <span>Dock Receiving: Mon-Fri 06:30 - 17:00 EST</span>\n            </span>\n        </div>\n        <div class=\"flex items-center gap-6\">\n            <a href=\"tel:+15148783200\" class=\"inline-flex items-center gap-2 text-slate-300 hover:text-gold-400 transition-colors\">\n                <i data-lucide=\"phone\" class=\"w-3.5 h-3.5 text-gold-500\"></i>\n                <span class=\"font-mono font-medium\">+1 (514) 878-3200</span>\n            </a>\n            <a href=\"https://wa.me/15148783200\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-emerald-950/80 border border-emerald-700/80 text-emerald-400 font-mono font-bold hover:bg-emerald-900 transition-colors\">\n                <i data-lucide=\"message-square\" class=\"w-3.5 h-3.5\"></i>\n                <span>WhatsApp Desk</span>\n            </a>\n        </div>\n    </div>\n</div>\n\n<!-- Main Sticky Navigation Bar -->\n<header class=\"sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-200\">\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n        <div class=\"flex items-center justify-between h-20\">\n            <!-- Brand Logo -->\n            <a href=\"/\" class=\"flex items-center gap-3 group\">\n                <img src=\"/wp-content/themes/montreal-polymers-theme/assets/images/logo-yellow.svg\" alt=\"Montreal Polymers\" class=\"h-10 w-auto object-contain\" onerror=\"this.src='/wp-content/themes/montreal-polymers-theme/assets/images/logo-yellow.svg'\">\n            </a>\n\n            <!-- Desktop Navigation Links -->\n            <nav class=\"hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-700\">\n                <a href=\"#home\" class=\"hover:text-gold-600 transition-colors\">Home</a>\n                <a href=\"#philosophy\" class=\"hover:text-gold-600 transition-colors\">Zero-Chemicals</a>\n                <a href=\"#services\" class=\"hover:text-gold-600 transition-colors\">Services</a>\n                <a href=\"#scrap-logistics\" class=\"hover:text-gold-600 transition-colors\">Scrap Buying</a>\n                <a href=\"#pvc\" class=\"hover:text-gold-600 transition-colors\">PVC Regrind</a>\n                <a href=\"#calculator\" class=\"hover:text-gold-600 transition-colors\">Landfill ROI</a>\n            </nav>\n\n            <!-- Actions & CTA Buttons -->\n            <div class=\"hidden sm:flex items-center gap-3\">\n                <a href=\"#contact\" class=\"px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider text-slate-900 bg-gold-500 hover:bg-gold-400 transition-colors shadow-sm flex items-center gap-2\">\n                    <i data-lucide=\"file-spreadsheet\" class=\"w-4 h-4\"></i>\n                    <span>Request RFQ</span>\n                </a>\n            </div>\n        </div>\n    </div>\n</header>\n"
-              },
-              "defaultEditSettings": {},
-              "elements": []
+                "selected_icon": {
+                  "value": "fas fa-map-marker-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "8850 Rue Pascal-Gagnon, Saint-L\u00e9onard, QC H1P 1Z3",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#cbd5e1",
+                "description_color": "#94a3b8",
+                "title_size": "span",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Plus Jakarta Sans",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "4a39dc3",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "10",
+              "bottom": "8",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "589fed2",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fab fa-whatsapp",
+                  "library": "fa-solid"
+                },
+                "title_text": "WhatsApp: +1 (514) 321-7000",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#22c55e",
+                "title_color": "#ffffff",
+                "description_color": "#94a3b8",
+                "title_size": "span",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Plus Jakarta Sans",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e85c559",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "10",
+              "bottom": "8",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "637b138",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-phone-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Call: +1 (514) 321-7000",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#ffcb0a",
+                "title_color": "#ffffff",
+                "description_color": "#94a3b8",
+                "title_size": "span",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Plus Jakarta Sans",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d4dca28",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "24",
+          "bottom": "12",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "344c233",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "padding": {
+              "unit": "px",
+              "top": "12",
+              "right": "10",
+              "bottom": "12",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "d165160",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://lemonchiffon-quetzal-329146.hostingersite.com/wp-content/uploads/2026/11/logot-yellow.png",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "left",
+                "width": {
+                  "unit": "px",
+                  "size": 220
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "388ea50",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 55,
+            "_inline_size": 55,
+            "padding": {
+              "unit": "px",
+              "top": "12",
+              "right": "10",
+              "bottom": "12",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "5849753",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><div style=\"display:flex; gap:24px; align-items:center; font-weight:600; font-size:15px; color:#1e293b; height:100%;\">\n  <a href=\"#home\" style=\"color:#0f172a; text-decoration:none;\">Home</a>\n  <a href=\"#philosophy\" style=\"color:#475569; text-decoration:none;\">Philosophy</a>\n  <a href=\"#services\" style=\"color:#475569; text-decoration:none;\">Services</a>\n  <a href=\"#scrap-purchasing\" style=\"color:#475569; text-decoration:none;\">Scrap Buying</a>\n  <a href=\"#pvc\" style=\"color:#475569; text-decoration:none;\">Rigid PVC</a>\n  <a href=\"#products\" style=\"color:#475569; text-decoration:none;\">Materials</a>\n  <a href=\"#quality\" style=\"color:#475569; text-decoration:none;\">QA Lab</a>\n  <a href=\"#contact\" style=\"color:#475569; text-decoration:none;\">Contact</a>\n</div></p>",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "a183f98",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": 20,
+            "padding": {
+              "unit": "px",
+              "top": "12",
+              "right": "10",
+              "bottom": "12",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "275d3d8",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Request Quote",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "right",
+                "size": "sm",
+                "button_text_color": "#0f172a",
+                "background_color": "#ffcb0a",
+                "hover_color": "#0f172a",
+                "button_background_hover_color": "#fde047",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "24",
+                  "bottom": "12",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "700"
+              }
             }
           ]
         }
       ]
     }
-  ],
-  "page_settings": {}
+  ]
 }
