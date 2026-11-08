@@ -1,7 +1,7 @@
 <?php
 /**
  * Template part for displaying the default Industrial Footer
- * 5-Column Industrial Layout with logo yellow.svg
+ * 5-Column Industrial Layout with logo-yellow.svg
  */
 
 $logo_url = MONTREAL_URI . '/assets/images/logo%20yellow.svg';

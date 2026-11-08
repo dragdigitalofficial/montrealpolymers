@@ -1,7 +1,7 @@
 <?php
 /**
  * Template part for displaying the default Industrial Header
- * Top Utility Bar + Sticky Navbar with logo yellow.svg
+ * Top Utility Bar + Sticky Navbar with logo-yellow.svg
  */
 
 $logo_url = MONTREAL_URI . '/assets/images/logo%20yellow.svg';
@@ -47,7 +47,7 @@ if ( has_custom_logo() ) {
 <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 shadow-lg transition-all duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         
-        <!-- Brand Logo from logo yellow.svg -->
+        <!-- Brand Logo from logo-yellow.svg -->
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="flex items-center gap-3">
             <img src="<?php echo esc_url( $logo_url ); ?>" alt="<?php bloginfo( 'name' ); ?>" class="h-10 w-auto">
         </a>
