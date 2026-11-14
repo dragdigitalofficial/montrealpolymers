@@ -38,13 +38,13 @@
 
                 <!-- Dual Action CTAs -->
                 <div class="flex flex-wrap items-center gap-4 pt-2">
-                    <a href="#contact" class="px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-slate-900 bg-gold-500 hover:bg-gold-400 transition-all shadow-gold-glow flex items-center gap-3">
+                    <a href="<?php echo esc_url( home_url( '/scrap-pickup/' ) ); ?>" class="px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-slate-900 bg-gold-500 hover:bg-gold-400 transition-all shadow-gold-glow flex items-center gap-3">
                         <i data-lucide="truck" class="w-4 h-4"></i>
                         <span>Schedule Scrap Pickup</span>
                     </a>
-                    <a href="#calculator" class="px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-all flex items-center gap-2">
-                        <i data-lucide="calculator" class="w-4 h-4 text-gold-500"></i>
-                        <span>Landfill ROI Calculator</span>
+                    <a href="<?php echo esc_url( home_url( '/polymers/' ) ); ?>" class="px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-all flex items-center gap-2">
+                        <i data-lucide="shield-check" class="w-4 h-4 text-gold-500"></i>
+                        <span>Flagship Polymer Specs</span>
                     </a>
                 </div>
 
@@ -683,30 +683,6 @@
             </div>
 
         </div>
-    </div>
-</section>
-
-<!-- ========================================================================= -->
-<!-- 11. INTERACTIVE LANDFILL & REVENUE CALCULATOR -->
-<!-- ========================================================================= -->
-<section id="calculator" class="py-24 bg-white border-t border-slate-200">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 reveal-on-scroll">
-        
-        <div class="text-center space-y-4">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-100 text-gold-800 text-xs font-mono font-semibold">
-                <i data-lucide="calculator" class="w-3.5 h-3.5"></i>
-                <span>INTERACTIVE ESG & REVENUE ESTIMATOR</span>
-            </div>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 font-display tracking-tight">
-                Calculate Landfill Diversion & Monthly Scrap Value
-            </h2>
-            <p class="text-slate-600 text-base font-light max-w-2xl mx-auto">
-                Adjust your monthly manufacturing scrap volume below to calculate total cubic meters spared from Canadian landfills and estimated scrap payout.
-            </p>
-        </div>
-
-        <?php echo do_shortcode( '[montreal_landfill_calculator]' ); ?>
-
     </div>
 </section>
 

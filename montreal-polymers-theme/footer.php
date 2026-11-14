@@ -11,8 +11,9 @@
     // Check if Elementor Pro Theme Builder or Header Footer Elementor is handling the footer
     if ( function_exists( 'elementor_theme_do_location' ) && elementor_theme_do_location( 'footer' ) ) {
         // Handled by Elementor Pro
-    } elseif ( function_exists( 'hfe_render_footer' ) && hfe_render_footer() ) {
+    } elseif ( function_exists( 'hfe_footer_enabled' ) && hfe_footer_enabled() ) {
         // Handled by Header Footer Elementor Plugin
+        hfe_render_footer();
     } else {
         // Fallback Native Industrial Footer
         get_template_part( 'template-parts/footer-content' );

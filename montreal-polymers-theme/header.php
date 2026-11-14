@@ -24,8 +24,9 @@
     // Check if Elementor Pro Theme Builder or Header Footer Elementor is handling the header
     if ( function_exists( 'elementor_theme_do_location' ) && elementor_theme_do_location( 'header' ) ) {
         // Handled by Elementor Pro
-    } elseif ( function_exists( 'hfe_render_header' ) && hfe_render_header() ) {
+    } elseif ( function_exists( 'hfe_header_enabled' ) && hfe_header_enabled() ) {
         // Handled by Header Footer Elementor Plugin
+        hfe_render_header();
     } else {
         // Fallback Native Industrial Header
         get_template_part( 'template-parts/header-content' );

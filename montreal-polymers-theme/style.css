@@ -112,3 +112,48 @@ input[type="range"] {
     min-height: 450px;
     position: relative;
 }
+
+/* WordPress Navigation Menu Styles (Theme Fallback Header & Footer) */
+.mp-nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.mp-nav-menu li a {
+    color: #cbd5e1;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.mp-nav-menu li a:hover {
+    color: #fbbf24;
+}
+.mp-nav-menu li.current-menu-item > a,
+.mp-nav-menu li.current_page_item > a {
+    color: #fbbf24;
+    border-bottom: 2px solid #ffcb0a;
+    padding-bottom: 2px;
+}
+
+.mp-footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.mp-footer-menu li a {
+    color: #94a3b8;
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.mp-footer-menu li a:hover {
+    color: #fbbf24;
+}
